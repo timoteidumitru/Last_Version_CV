@@ -11,6 +11,7 @@ body {
 	height: 15px;
   width: 23.5px;
   position: absolute;
+  cursor: pointer;
 }
 
 .path-1 {
@@ -29,11 +30,18 @@ body {
   position: absolute;
 }
 
-.rectangle {	
-  box-sizing: border-box;	
-  height: 48px;	
-  width: 132px;	
+.rectangle {
+  box-sizing: border-box;
+  height: 48px;
+  width: 132px;
   border: 1px solid #000;
+  transition: all 1s;
+  &:hover {
+    transition: all 1s;
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+  }
 }
 
 .start-project {
@@ -46,6 +54,12 @@ body {
   line-height: 15px;
   text-transform: uppercase;
   padding: 16.5px;
+  transition: all 1s;
+  &:hover {
+    transition: all .5s;
+    color: #fff;
+    cursor: pointer;
+  }
 }
 
 // Left name component
@@ -72,3 +86,35 @@ body {
   margin: auto;
   cursor: default;
 }
+
+
+// Center main text
+
+.header-text {
+  position: absolute;
+  top: 340px;
+  left: 841px;
+	height: 759px;
+	width: 850px;
+	color: #000;
+	font-family: Montserrat;
+	font-size: 147px;
+	font-weight: 700;
+  line-height: 179px;
+  cursor: default;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
