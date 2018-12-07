@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Index from './components/main/Index';
+import Header from './components/main/Header';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Index />
+        <Header />
       </div>
     );
   }

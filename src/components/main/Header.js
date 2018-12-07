@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './index.scss'
+import './header.scss'
 import TopMenu from './TopMenu';
 import LeftName from './LeftName';
 import HeaderText from './HeaderText';
