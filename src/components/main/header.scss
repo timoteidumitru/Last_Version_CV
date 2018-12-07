@@ -19,13 +19,26 @@ body {
 	height: 15px;
 	width: 23.5px;
 	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
+  border-bottom: 1px solid #000;
+  transition: all 1s;
+}
+.path-2:after {
+  content: '\d7';
 }
 
-.group-1 {	
+.path-2 {
+  font-size: 40px;
+  line-height: 0.1;
+	height: 15px;
+  width: 23.5px;
+  color: #000;
+}
+
+
+.group-1 {
   left: 2172px;
   top: 60px;
-  height: 48px;	
+  height: 48px;
   width: 132px;
   position: absolute;
 }

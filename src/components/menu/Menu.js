@@ -5,7 +5,7 @@ class Menu extends Component {
   render() {
     return (
       <div>
-        <h1>hells</h1>
+        asd
       </div>
     )
   }
