@@ -10,6 +10,7 @@ export default function HeaderText() {
         a Junior<br />
         Front-End<br />
         Developer
+      <span className="based-in-london">based in London</span>
       </div>
     </div>
   )
