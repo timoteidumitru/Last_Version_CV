@@ -12,7 +12,7 @@ class Index extends Component {
   }
   toggleClass = () => {
     const currentState = this.state.toggle;
-    this.setState({ toggle: !currentState })
+      this.setState({ toggle: !currentState })
   }
   render() {
     return (

@@ -20,19 +20,34 @@ body {
 	width: 23.5px;
 	border-top: 1px solid #000;
   border-bottom: 1px solid #000;
-  transition: all 1s;
+  animation: fadeout .7s ease-in
 }
-.path-2::after {
-  content: '\d7';
+
+@keyframes fadeout {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 .path-2 {
+  animation: fadein .7s ease-in
+}
+
+.path-2::after {
+  content: '\d7';
   font-size: 40px;
   line-height: 0.1;
-	height: 15px;
   width: 23.5px;
   color: #000;
+  opacity: 1;
+  font-weight: 100;
+  transition: all 1s;
 }
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 
 
 .group-1 {

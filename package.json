@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "Responsive Portofolio",
-  "homepage": "https://shokadinueu.github.io/last-version-cv",
+  "homepage": "https://shokadinueu.github.io/Last_Version_CV",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.10.0",
