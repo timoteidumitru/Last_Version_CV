@@ -1,15 +1,15 @@
-body {
-  width: 2560px;
-  height: 1440px;
-}
+// body {
+//   width: 2560px;
+//   height: 1440px;
+// }
 
 // Right top component
 
 .group {
-  top: 76.5px;
-  left: 2412px;
-	height: 15px;
-  width: 23.5px;
+  top: 5.31%;
+  right: 8.65%;
+	height: 1.04%;
+  width: 0.92%;
   position: absolute;
   cursor: pointer;
 }
@@ -36,16 +36,16 @@ body {
 
 
 .group-1 {
-  left: 2172px;
-  top: 60px;
-  height: 48px;
-  width: 132px;
+  right: 17.8%;
+  top: 4.17%;
+  height: 3.33%;	
+  width: 5.16%;
   position: absolute;
 }
 
 .rectangle {
   box-sizing: border-box;
-  height: 48px;
+  height: 48px;	
   width: 132px;
   border: 1px solid #000;
   transition: all 1s;
@@ -105,16 +105,17 @@ body {
 
 .header-text {
   position: absolute;
-  top: 340px;
-  left: 841px;
-	height: 759px;
-	width: 850px;
+  top: 23.61%;
+  left: 32.85%;
+	height: 52.71%;
+	width: 33.2%;
 	color: #000;
 	font-family: Montserrat;
-	font-size: 147px;
+	font-size: 127px;
 	font-weight: 700;
-  line-height: 179px;
+  line-height: 159px;
   cursor: default;
+  margin-bottom: 20%;
 }
 
 
