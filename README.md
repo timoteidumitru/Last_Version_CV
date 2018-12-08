@@ -5,7 +5,7 @@
 
 ###### ->The design is from <a href="https://www.nespoulous-design.com/">Nespoulous Design</a><br>
 
-###### ->For this project i used ReactJS, JavaScript, CSS, HTML, Favicon.io.<br>
+###### ->To build this project i use: ReactJS, JavaScript, CSS, HTML, Favicon.io.<br>
 
 ###### ->Photos are free from Pexel.com<br><br>
 
