@@ -193,6 +193,36 @@ body {
   display: block;
 }
 
+@media only screen and (max-width: 1281px) {
+  .header-text {
+    width: 40%;
+    line-height: 1.1;
+    font-size: 74px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .header-text {
+    top: 25.61%;
+    left: 34.85%;
+    height: 39.71%;
+    width: 48.2%;
+    font-size: 82px;
+    line-height: 1.2;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .header-text {
+    top: 28.61%;
+    left: 31.85%;
+    height: 52.71%;
+    width: 60.2%;
+    font-size: 69px;
+    line-height: 72px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
 
   .header-text {
@@ -227,16 +257,6 @@ body {
 
 }
 
-@media only screen and (max-width: 769px) {
-  .header-text {
-    top: 28.61%;
-    left: 31.85%;
-    height: 52.71%;
-    width: 60.2%;
-    font-size: 69px;
-    line-height: 72px;
-}
-}
 
 
 
