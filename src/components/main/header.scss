@@ -193,7 +193,39 @@ body {
   display: block;
 }
 
+@media only screen and (max-width: 480px) {
 
+  .header-text {
+    width: 60%;
+    top: 25.61%;
+    left: 31.85%;
+    font-size: 35px;
+    line-height: 1.3;
+  }
+  .group {
+    top: 4.31%;
+    right: 12.65%;
+  }
+  .group-1 {
+    right: 32%;
+    bottom: 2em;
+    top: auto;
+}
+  .left-name {
+    top: 30%;
+    left: 6px;
+    font-size: 26px;
+  }
+  .left-name-text {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  .based-in-london {
+    font-size: 15px;
+    line-height: 0.5;
+  }
+
+}
 
 
 
