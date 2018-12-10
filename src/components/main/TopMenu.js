@@ -2,7 +2,7 @@ import React from 'react'
 import './header.scss'
 
 function TopMenu(props) {
-  const { toggleClass, classes } = props
+  const { toggleClass } = props
   return (
     <div>
       <div className="right-menu">
@@ -12,7 +12,7 @@ function TopMenu(props) {
             </div>
           </div>
           <div className="group"  >
-            <div className={classes}
+            <div className="path-1"
                  onClick={toggleClass}
             ></div>
           </div>

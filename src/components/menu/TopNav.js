@@ -11,9 +11,9 @@ function TopMenu(props) {
               <div className="button-text">start project</div>
             </div>
           </div>
-          <div className="nav-activator"  >
-            <div onClick={toggleMenu}
-            >&#120;</div>
+          <div className="nav-activator">
+            <div className="path-2" onClick={toggleMenu}
+            ></div>
           </div>
         </div>
     </div>

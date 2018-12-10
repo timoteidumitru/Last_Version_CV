@@ -19,8 +19,7 @@ class Index extends Component {
   render() {
     return (
       <div>
-        <TopMenu toggleClass={this.toggleClass}
-                 classes={ this.state.toggle ? "path-2" : "path-1" } />
+        <TopMenu toggleClass={this.toggleClass} />
         <LeftName />
         <HeaderText />
       </div>
