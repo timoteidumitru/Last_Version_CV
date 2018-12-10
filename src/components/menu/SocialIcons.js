@@ -3,7 +3,7 @@ import './menu.scss'
 
 function SocialIcons() {
   return (
-    <div>
+    <div className="social-section">
       <ul className="social-icons">
         <li className="social-icon"><img src="./images/social-icons/linkedin.png" alt="LinkedIn"/></li>
         <li className="social-icon"><img src="./images/social-icons/github.png" alt="Github"/></li>

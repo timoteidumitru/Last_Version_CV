@@ -47,35 +47,55 @@ body {
   left: 1.4em;
   padding: 0;
 }
+
 .menu-item {
   transition: all 0.6s ease-in-out;
   margin-top: 0.1em;
   cursor: pointer;
 }
 
-.menu-item:hover {
+ul.menu-list:hover {
+  color: rgba(122, 122, 122, 0.63);
+}
+
+li.menu-item:hover {
+  color: #fff;
   transform: scale(1.1)
   translateX(0.3em);
-  transition: all 0.6s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.social-section {
+  display: inline-flex;
 }
 
 .social-icons {
   list-style: none;
-  display: flex;
+  display: inline-flex;
+}
+
+.social-icon:hover {
+  color: rgba(122, 122, 122, 0.50);
 }
 
 .social-icon {
   padding: 0;
   margin: 0;
   margin-right: 0.1em;
-  margin-top: -0.2em;
+  margin-top: -0.4em;
   position: relative;
 }
 
 .social-icon > img {
+  transition: all 0.4s ease-in-out;
   height: 23.24px;	
   width: auto;
   cursor: pointer;
+  &:hover {
+    color: #fff;
+    transform: scale(1.2);
+    transition: all 0.4s ease-in-out;
+  }
 }
 
 .left-name-menu {
@@ -163,7 +183,6 @@ body {
 }
 
 .button-wrapper:hover {
-  // border-color: #000;
 	color: #000;
 }
 
@@ -217,6 +236,22 @@ body {
   line-height: 0.5;
 }
 
+@media only screen and (max-width: 1441px) {
+  .menu-list {
+    font-size: 7em;
+    left: 1.6em;
+    top: 1em;
+  }
+}
+
+@media only screen and (max-width: 1281px) {
+  .menu-list {
+    font-size: 7em;
+    left: 1.6em;
+    top: 1em;
+  }
+}
+
 
 @media only screen and (max-width: 769px) {
   .menu-list {
@@ -257,6 +292,9 @@ body {
     top: 4.31%;
     right: 12.65%;
     font-size: 2.7em;
+  }
+  .social-section {
+    margin-left: -0.3em;
   }
   .social-icons {
     padding: auto;
