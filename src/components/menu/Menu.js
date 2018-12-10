@@ -20,7 +20,7 @@ class Menu extends Component {
     render() {
       return (
       <div>
-        <div id="toggle-menu-button" className="menu-wrapper show">
+        <div id="toggle-menu-button" className="menu-wrapper">
           <MenuList />
           <LeftName />
           <TopNav toggleMenu={this.toggleMenu} />
