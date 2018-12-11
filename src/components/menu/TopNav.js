@@ -8,7 +8,7 @@ function TopMenu(props) {
       <div className="right-nav">
           <div className="nav-button">
             <div className="button-wrapper">
-              <div className="button-text">start project</div>
+              <div onClick={toggleMenu} className="button-text">main page</div>
             </div>
           </div>
           <div className="nav-activator">

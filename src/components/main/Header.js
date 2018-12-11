@@ -19,7 +19,7 @@ class Index extends Component {
   render() {
     return (
       <div>
-        <TopMenu toggleClass={this.toggleClass} />
+        <TopMenu toggleClass={this.toggleClass}/>
         <LeftName />
         <HeaderText />
       </div>

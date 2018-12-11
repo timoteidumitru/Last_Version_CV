@@ -55,7 +55,7 @@ body {
 }
 
 ul.menu-list:hover {
-  color: rgba(122, 122, 122, 0.63);
+  color: rgba(122, 122, 122, 0.4);
 }
 
 li.menu-item:hover {
@@ -67,6 +67,7 @@ li.menu-item:hover {
 
 .social-section {
   display: inline-flex;
+  z-index: 100;
 }
 
 .social-icons {
@@ -124,7 +125,7 @@ li.menu-item:hover {
 .left-name-email {
   transform: rotate(180deg);
   top: 75%;
-  left: 2%;
+  left: 20px;
   position: absolute;
 	width: 32px;
 	color: #fff;
@@ -158,14 +159,14 @@ li.menu-item:hover {
   right: 12.8%;
   top: 4.17%;
   height: 2.55em;	
-  width: 8.1em;
+  width: 6.3em;
   position: absolute;
 }
 
 .button-wrapper {
   box-sizing: border-box;
   height: 2.55em;	
-  width: 8.1em;
+  width: 6.3em;
   border: 1px solid #fff;
 	position: relative;
 	color: #fff;
@@ -284,7 +285,7 @@ li.menu-item:hover {
     font-size: 13px;
   }
   .nav-button {
-    right: 30%;
+    right: 33.5%;
     bottom: 3%;
     top: auto;
   }
