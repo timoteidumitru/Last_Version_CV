@@ -30,6 +30,11 @@ body {
   transform: translate3d(0,0,0);
 }
 
+.fade-element {
+  opacity: 0.35;
+  transition: all 1s;
+}
+
 .menu-wrapper {
   height: 100vh;
   overflow: hidden;
@@ -73,10 +78,7 @@ li.menu-item:hover {
 .social-icons {
   list-style: none;
   display: inline-flex;
-}
-
-.social-icon:hover {
-  color: rgba(122, 122, 122, 0.50);
+  transition: all 1s;
 }
 
 .social-icon {
@@ -85,15 +87,15 @@ li.menu-item:hover {
   margin-right: 0.1em;
   margin-top: -0.4em;
   position: relative;
+  transition: all 1s;
 }
 
-.social-icon > img {
+.social-icon img {
   transition: all 0.4s ease-in-out;
   height: 23.24px;	
   width: auto;
   cursor: pointer;
   &:hover {
-    color: #fff;
     transform: scale(1.2);
     transition: all 0.4s ease-in-out;
   }
