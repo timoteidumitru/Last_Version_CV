@@ -32,7 +32,7 @@ body {
 
 .fade-element {
   opacity: 0.35;
-  transition: all 1s;
+  transition: all .5s;
 }
 
 .menu-wrapper {
@@ -54,7 +54,7 @@ body {
 }
 
 .menu-item {
-  transition: all 0.6s ease-in-out;
+  transition: all 0.3s ease-in-out;
   margin-top: 0.1em;
   cursor: pointer;
 }
@@ -65,9 +65,9 @@ ul.menu-list:hover {
 
 li.menu-item:hover {
   color: #fff;
-  transform: scale(1.1)
-  translateX(0.3em);
-  transition: all 0.4s ease-in-out;
+  transform: scale(1)
+  translateX(0.4em);
+  transition: all 0.2s ease-in-out;
 }
 
 .social-section {
