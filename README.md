@@ -9,10 +9,12 @@
 
 ###### ->Photos are free from Pexel.com<br><br>
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-![first-intro](https://user-images.githubusercontent.com/35012587/49705122-cc7b2200-fc13-11e8-802f-674684fb3da4.jpg) <br>
+![intro-1](https://user-images.githubusercontent.com/35012587/49802371-9ee1c600-fd44-11e8-90fd-e2bbbc4116fc.jpg) <br>
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-![second-intro](https://user-images.githubusercontent.com/35012587/49705123-cc7b2200-fc13-11e8-835e-5a8dce907f32.jpg) <br>
+![intro-2](https://user-images.githubusercontent.com/35012587/49802372-9ee1c600-fd44-11e8-8848-23b80f9ddf15.jpg) <br>
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+![mobile](https://user-images.githubusercontent.com/35012587/49802373-9ee1c600-fd44-11e8-87d9-c52e6bc2b0b4.jpg)<br><br>
+
 
 #-> For a quick acces to this project enter comand prompt then use:
 
