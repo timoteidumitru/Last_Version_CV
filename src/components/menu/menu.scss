@@ -240,11 +240,39 @@ li.menu-item:hover {
   line-height: 0.5;
 }
 
+@media only screen and (min-width: 1441px) {
+  .menu-list {
+    font-size: 7em;
+    left: 1.6em;
+    top: 1em;
+  }
+  .social-section {
+    display: flex;
+    margin-top: 0.2em;
+  }
+  .social-icons {
+    padding-left: 0.1em;
+  }
+  .social-icon {
+    margin-right: 0.2em;
+  }
+}
+
 @media only screen and (max-width: 1441px) {
   .menu-list {
     font-size: 7em;
     left: 1.6em;
     top: 1em;
+  }
+  .social-section {
+    display: flex;
+    margin-top: 0.2em;
+  }
+  .social-icons {
+    padding-left: 0.1em;
+  }
+  .social-icon {
+    margin-right: 0.2em;
   }
 }
 
