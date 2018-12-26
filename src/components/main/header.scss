@@ -163,6 +163,7 @@ body {
   writing-mode: vertical-rl;
   margin: auto;
   cursor: default;
+  user-select: none;
 }
 
 
@@ -180,6 +181,7 @@ body {
 	font-weight: 700;
   line-height: 95px;
   cursor: default;
+  user-select: none;
 }
 
 .based-in-london {
