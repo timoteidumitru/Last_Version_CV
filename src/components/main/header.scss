@@ -195,6 +195,22 @@ body {
 }
 
 
+@media only screen and (max-width: 1367px) {
+  .header-text {
+    position: absolute;
+    top: 23.61%;
+    left: 38.85%;
+    height: 52.71%;
+    width: 33.2%;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 77px;
+    cursor: default;
+  }
+}
+
 @media only screen and (max-width: 1281px) {
   .header-text {
     width: 40%;
@@ -257,16 +273,6 @@ body {
   }
 
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

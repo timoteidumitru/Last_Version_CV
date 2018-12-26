@@ -260,9 +260,8 @@ li.menu-item:hover {
 
 @media only screen and (max-width: 1441px) {
   .menu-list {
-    font-size: 7em;
+    font-size: 6em;
     left: 1.6em;
-    top: 1em;
   }
   .social-section {
     display: flex;
@@ -273,6 +272,17 @@ li.menu-item:hover {
   }
   .social-icon {
     margin-right: 0.2em;
+  }
+  .left-name-menu-text {
+    height: 350.5px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .left-name-email {
+    top: 70%;
+    left: 14px;
+    font-size: 12px;
+    font-weight: 100;
   }
 }
 
