@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
+import { Link } from "react-router-dom"
 import './menu.scss'
-import SocialIcons from './SocialIcons';
+import SocialIcons from './SocialIcons'
 
 class MenuList extends Component {
 
@@ -18,13 +19,13 @@ class MenuList extends Component {
       <div>
         <ul className="menu-list">
           <li onMouseEnter={this.mouseEnter}
-              onMouseLeave={this.mouseLeave} className="menu-item">Work</li>
+              onMouseLeave={this.mouseLeave} className="menu-item"><Link className="menu-item-link" to="/work">Work</Link></li>
           <li onMouseEnter={this.mouseEnter}
-              onMouseLeave={this.mouseLeave} className="menu-item">About</li>
+              onMouseLeave={this.mouseLeave} className="menu-item"><Link className="menu-item-link" to="/about">About</Link></li>
           <li onMouseEnter={this.mouseEnter}
-              onMouseLeave={this.mouseLeave} className="menu-item">Resume</li>
+              onMouseLeave={this.mouseLeave} className="menu-item"><Link className="menu-item-link" to="/resume">Resume</Link></li>
           <li onMouseEnter={this.mouseEnter}
-              onMouseLeave={this.mouseLeave} className="menu-item">Contact</li>
+              onMouseLeave={this.mouseLeave} className="menu-item"><Link className="menu-item-link" to="/contact">Contact</Link></li>
           <SocialIcons />
         </ul>
       </div>
