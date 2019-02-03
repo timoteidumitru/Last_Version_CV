@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router>
+        <Router git basename="Last_Version_CV">
           <Switch>
             <Route path="/" exact>
               <div>
