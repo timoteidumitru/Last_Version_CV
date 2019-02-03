@@ -1,6 +1,6 @@
 {
-  "short_name": "Tim CV",
-  "name": "Timotei Dumitru Portofolio",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
