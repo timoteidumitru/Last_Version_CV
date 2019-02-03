@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import './menu.scss'
 import SocialIcons from './SocialIcons'
 
@@ -19,13 +19,13 @@ class MenuList extends Component {
       <div>
         <ul className="menu-list">
           <li onMouseEnter={this.mouseEnter}
-              onMouseLeave={this.mouseLeave} className="menu-item"><Link className="menu-item-link" to="/work">Work</Link></li>
+              onMouseLeave={this.mouseLeave} className="menu-item"><NavLink className="menu-item-link" to="/work">Work</NavLink></li>
           <li onMouseEnter={this.mouseEnter}
-              onMouseLeave={this.mouseLeave} className="menu-item"><Link className="menu-item-link" to="/about">About</Link></li>
+              onMouseLeave={this.mouseLeave} className="menu-item"><NavLink className="menu-item-link" to="/about">About</NavLink></li>
           <li onMouseEnter={this.mouseEnter}
-              onMouseLeave={this.mouseLeave} className="menu-item"><Link className="menu-item-link" to="/resume">Resume</Link></li>
+              onMouseLeave={this.mouseLeave} className="menu-item"><NavLink className="menu-item-link" to="/resume">Resume</NavLink></li>
           <li onMouseEnter={this.mouseEnter}
-              onMouseLeave={this.mouseLeave} className="menu-item"><Link className="menu-item-link" to="/contact">Contact</Link></li>
+              onMouseLeave={this.mouseLeave} className="menu-item"><NavLink className="menu-item-link" to="/contact">Contact</NavLink></li>
           <SocialIcons />
         </ul>
       </div>

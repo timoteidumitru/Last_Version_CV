@@ -33,6 +33,16 @@ body {
 .fade-element {
   opacity: 0.35;
   transition: all .4s;
+  color: #ccc;
+}
+
+.active {
+  color: red
+}
+
+.menu-item-link {
+  text-decoration: none;
+  color: #ccc;
 }
 
 .menu-wrapper {
@@ -57,6 +67,7 @@ body {
   transition: all 0.3s ease-in-out;
   margin-top: 0.2em;
   cursor: pointer;
+  text-decoration: none;
 }
 
 ul.menu-list:hover {
@@ -69,6 +80,29 @@ li.menu-item:hover {
   translateX(0.4em);
   transition: all 0.4s ease-in-out;
   transition-delay: 0.2s;
+}
+
+.menu-item-link {
+  transition: all 0.3s ease-in-out;
+  margin-top: 0.2em;
+  cursor: pointer;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.menu-item-link:hover {
+  color: #fff;
+  transform: scale(1) translateX(0.4em);
+  transition: all 0.4s ease-in-out;
+  transition-delay: 0.2s;
+}
+
+.menu-list:hover li a {
+  color: rgba(92, 92, 92, 0.308);
+}
+
+.menu-list li a:hover {
+  color: rgb(255, 255, 255);
 }
 
 .social-section {

@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import TopMenu from './TopMenu'
 import LeftName from './LeftName'
 import HeaderText from './HeaderText'
+import './header.scss'
+
 
 class Index extends Component {
   constructor(props) {
@@ -16,9 +18,10 @@ class Index extends Component {
     let classToggle = document.getElementById("toggle-menu-button");
     classToggle.classList.toggle("show")
   }
+
   render() {
     return (
-      <div>
+      <div className="landing-page">
         <TopMenu toggleClass={this.toggleClass}/>
         <LeftName />
         <HeaderText />
