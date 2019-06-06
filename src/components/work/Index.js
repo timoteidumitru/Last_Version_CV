@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import NavAbout from '../about/NavAbout'
+import Footer from '../about/Footer'
 import './work.scss'
 import '../../App.scss'
 
@@ -8,13 +9,15 @@ export default class Index extends Component {
     return (
       <div id="work" className="work-main">
         <NavAbout />
-        <h1 className="lg-heading">
-          My
-          <span className="text-secondary">Work</span>
-        </h1>
-        <h2 className="sm-heading">
-          Check out some of my projects!
-        </h2>
+        <div className="work-header">
+          <h1 className="lg-heading">
+            My
+            <span className="text-secondary">Work</span>
+          </h1>
+          <h2 className="sm-heading">
+            Check out some of my projects!
+          </h2>
+        </div>
         <div className="projects">
           {/* <!-- First Item --> */}
           <div className="item">
@@ -89,6 +92,7 @@ export default class Index extends Component {
             </a>
           </div>
         </div>
+        <Footer />
       </div>
     )
   }

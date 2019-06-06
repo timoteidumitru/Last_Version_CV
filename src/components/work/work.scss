@@ -1,9 +1,5 @@
 @import './config.scss';
-// @import 'menu';
 
-// * {
-//   box-sizing: border-box;
-// }
 
 body {
   @include background;
@@ -49,8 +45,11 @@ header {
 }
 
 .work-main {
-  padding: 0 2em;
   background-color: rgb(105, 105, 105);
+}
+
+.work-header {
+  padding: 0 2em;
 }
 
 main {
@@ -130,6 +129,10 @@ main {
   background: darken($primary-color, 10);
   color: set-text-color($primary-color);
   height: 45px;
+}
+
+.footer-main {
+  margin-top: 2em;
 }
 
 @import './mobile.scss';
