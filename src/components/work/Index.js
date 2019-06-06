@@ -5,7 +5,7 @@ import '../../App.scss'
 export default class Index extends Component {
   render() {
     return (
-      <div id="work">
+      <div id="work" className="work-main">
         <h1 className="lg-heading">
           My
           <span className="text-secondary">Work</span>

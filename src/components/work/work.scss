@@ -48,6 +48,11 @@ header {
   color: $secondary-color;
 }
 
+.work-main {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 main {
   padding: 4rem;
   min-height: calc(100vh - 45px);
@@ -77,6 +82,8 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.9rem;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .project-img {
