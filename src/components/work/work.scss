@@ -1,9 +1,9 @@
 @import './config.scss';
 // @import 'menu';
 
-* {
-  box-sizing: border-box;
-}
+// * {
+//   box-sizing: border-box;
+// }
 
 body {
   @include background;
@@ -49,8 +49,8 @@ header {
 }
 
 .work-main {
-  max-width: 90%;
-  margin: 0 auto;
+  padding: 0 2em;
+  background-color: rgb(105, 105, 105);
 }
 
 main {
@@ -88,7 +88,7 @@ main {
 
 .project-img {
   height: 250px;
-  width: 100%;
+  width: 98%;
   border: 3px #fff solid;
 
   &:hover {

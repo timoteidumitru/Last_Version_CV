@@ -58,7 +58,8 @@
 }
 
 .go-menu {
-  animation: fadein .7s ease-in
+  animation: fadein .7s ease-in;
+  background-color: transparent;
 }
 
 .go-menu::after {

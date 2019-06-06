@@ -15,9 +15,9 @@ class Intro extends Component {
           </div>
           <div className="header-text-about">
             The pleasure <br />
-            i gain from climbing  <br />
+            I gain from climbing  <br />
             something that  <br />
-            seems unclimbable <br />
+            seems unclimbable! <br />
           </div>
         </div>
         <div className="office-image"></div>

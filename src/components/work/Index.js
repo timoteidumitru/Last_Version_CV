@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import NavAbout from '../about/NavAbout'
 import './work.scss'
 import '../../App.scss'
 
@@ -6,6 +7,7 @@ export default class Index extends Component {
   render() {
     return (
       <div id="work" className="work-main">
+        <NavAbout />
         <h1 className="lg-heading">
           My
           <span className="text-secondary">Work</span>

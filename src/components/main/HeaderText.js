@@ -6,7 +6,7 @@ export default function HeaderText() {
     <div>
       <div className="header-text">
         Hello,<br />
-        i'm Timotei<br />
+        I'm Timotei<br />
         a Junior<br />
         Front-End<br />
         Developer
