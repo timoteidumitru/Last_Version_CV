@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './work.scss'
+import '../../App.scss'
 
 export default class Index extends Component {
   render() {
@@ -16,7 +17,7 @@ export default class Index extends Component {
           {/* <!-- First Item --> */}
           <div className="item">
             <a href="#!">
-              <img className="project-img" src="img/projects/fashion-today.jpg" alt="Latest Project" />
+              <img className="project-img" src="/images/my-work/fashion-today.jpg" alt="Latest Project" />
             </a>
             <a href="#" className="btn-light">
               <i className="fas fa-eye"></i> Fashion Today
@@ -28,7 +29,7 @@ export default class Index extends Component {
           {/* <!-- Second Item --> */}
           <div className="item">
             <a href="#!">
-              <img className="project-img" src="img/projects/development-website.jpg" alt="Development Website" />
+              <img className="project-img" src="/images/my-work/development-website.jpg" alt="Development Website" />
             </a>
             <a href="#" className="btn-light">
               <i className="fas fa-eye"></i> Development Website
@@ -40,7 +41,7 @@ export default class Index extends Component {
           {/* <!-- Third Item --> */}
           <div className="item">
             <a href="#!">
-              <img className="project-img" src="img/projects/weather-app.jpg" alt="Get Weather APP" />
+              <img className="project-img" src="/images/my-work/weather-app.jpg" alt="Get Weather APP" />
             </a>
             <a href="#" className="btn-light">
               <i className="fas fa-eye"></i> Get Weather App
@@ -52,7 +53,7 @@ export default class Index extends Component {
           {/* <!-- Fourth Item --> */}
           <div className="item">
             <a href="#!">
-              <img className="project-img" src="img/projects/type-n-speak.jpg" alt="Type-n-Speak" />
+              <img className="project-img" src="/images/my-work/type-n-speak.jpg" alt="Type-n-Speak" />
             </a>
             <a href="#" className="btn-light">
               <i className="fas fa-eye"></i> Type-n-Speak
@@ -64,7 +65,7 @@ export default class Index extends Component {
           {/* <!-- Fifth Item --> */}
           <div className="item">
             <a href="#!">
-              <img className="project-img" src="img/projects/apple-stock.jpg" alt="Apple Stock" />
+              <img className="project-img" src="/images/my-work/apple-stock.jpg" alt="Apple Stock" />
             </a>
             <a href="#" className="btn-light">
               <i className="fas fa-eye"></i> Apple Stock App
@@ -76,7 +77,7 @@ export default class Index extends Component {
           {/* <!-- Sixth Item --> */}
           <div className="item">
             <a href="#!">
-              <img className="project-img" src="img/projects/first-cv-online.jpg" alt="First CV" />
+              <img className="project-img" src="/images/my-work/first-cv-online.jpg" alt="First CV" />
             </a>
             <a href="#" className="btn-light">
               <i className="fas fa-eye"></i> First CV
