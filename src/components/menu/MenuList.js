@@ -19,9 +19,9 @@ class MenuList extends Component {
       <div>
         <ul className="menu-list">
           <li onMouseEnter={this.mouseEnter}
-              onMouseLeave={this.mouseLeave} className="menu-item"><NavLink className="menu-item-link" to="/work">Work</NavLink></li>
-          <li onMouseEnter={this.mouseEnter}
               onMouseLeave={this.mouseLeave} className="menu-item"><NavLink className="menu-item-link" to="/about">About</NavLink></li>
+          <li onMouseEnter={this.mouseEnter}
+              onMouseLeave={this.mouseLeave} className="menu-item"><NavLink className="menu-item-link" to="/work">Work</NavLink></li>
           <li onMouseEnter={this.mouseEnter}
               onMouseLeave={this.mouseLeave} className="menu-item"><NavLink className="menu-item-link" to="/resume">Resume</NavLink></li>
           <li onMouseEnter={this.mouseEnter}
