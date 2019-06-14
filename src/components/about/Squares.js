@@ -2,10 +2,12 @@ import React from 'react'
 
 export default function Square() {
   return (
-    <div>
+    <div className="about-items-wrapper">
       <div className="item-about">
         <span className="clock">
-          <i class="fas fa-tachometer-alt"></i>
+          <div className="item-about-image-holder">
+            <i class="fas fa-tachometer-alt"></i>
+          </div>
         </span>
         <span className="item-abut-title">
           Fast
@@ -16,7 +18,9 @@ export default function Square() {
       </div>
       <div className="item-about">
         <span className="bulb">
-          <i class="far fa-lightbulb"></i>
+          <div className="item-about-image-holder">
+            <i class="far fa-lightbulb"></i>
+          </div>
         </span>
         <span className="item-abut-title">
           Intuitive
@@ -27,7 +31,9 @@ export default function Square() {
       </div>
       <div className="item-about">
         <span className="computer">
-          <i class="fas fa-credit-card"></i>
+          <div className="item-about-image-holder">
+            <i class="fas fa-credit-card"></i>
+          </div>
         </span>
         <span className="item-abut-title">
           Responsive
@@ -38,7 +44,9 @@ export default function Square() {
       </div>
       <div className="item-about">
         <span className="rocket">
-          <i class="fas fa-rocket"></i>
+          <div className="item-about-image-holder">
+            <i class="fas fa-rocket"></i>
+          </div>
         </span>
         <span className="item-abut-title">
           Dynamic
