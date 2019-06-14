@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './about.scss'
 import Intro from './Intro';
-import Content from './Content';
+import Squares from './Squares';
 import Footer from './Footer';
 
 export default class Index extends Component {
@@ -10,7 +10,7 @@ export default class Index extends Component {
     return (
       <div className="about-main">
         <Intro />
-        <Content />
+        <Squares />
         <Footer />
       </div>
     )
