@@ -10,6 +10,11 @@ class Intro extends Component {
       <div className="intro-main">
         <div className="about-intro">
           <NavAbout />
+          <div className="about-page">
+            <span className="about-main-name">
+              About
+            </span>
+          </div>
           <div className="left-name">
             <p className="left-name-text">Timotei Dumitru</p>
           </div>
