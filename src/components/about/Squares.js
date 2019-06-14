@@ -3,37 +3,49 @@ import React from 'react'
 export default function Square() {
   return (
     <div>
-      <div className="item-about clock">
+      <div className="item-about">
+        <span className="clock">
+          <i class="fas fa-tachometer-alt"></i>
+        </span>
         <span className="item-abut-title">
           Fast
         </span> 
-        <div className="item-about-message">
+        <span className="item-about-message">
           Fast loading time and lag free interaction is my highest priority.
-        </div>
+        </span>
       </div>
-      <div className="item-about bulb">
+      <div className="item-about">
+        <span className="bulb">
+          <i class="far fa-lightbulb"></i>
+        </span>
         <span className="item-abut-title">
           Intuitive
         </span> 
-        <div className="item-about-message">
+        <span className="item-about-message">
           Strong preference for easy to use, intuitive UX/UI design.
-        </div>
+        </span>
       </div>
-      <div className="item-about computer">
+      <div className="item-about">
+        <span className="computer">
+          <i class="fas fa-credit-card"></i>
+        </span>
         <span className="item-abut-title">
           Responsive
         </span> 
-        <div className="item-about-message">
+        <span className="item-about-message">
           My layouts will work on any device, big to small.
-        </div>
+        </span>
       </div>
-      <div className="item-about rocket">
+      <div className="item-about">
+        <span className="rocket">
+          <i class="fas fa-rocket"></i>
+        </span>
         <span className="item-abut-title">
           Dynamic
         </span> 
-        <div className="item-about-message">
+        <span className="item-about-message">
           Websites don't have to be statis, I love making pages come to life.
-        </div>
+        </span>
       </div>
     </div>
   )
