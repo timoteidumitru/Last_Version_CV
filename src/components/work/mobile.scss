@@ -22,7 +22,7 @@
 // Smartphones
 @include mediaSm {
   .lg-heading {
-    font-size: 4em;
+    font-size: 4em !important;
   }
   .projects {
     grid-template-columns: 1fr;
