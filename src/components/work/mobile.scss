@@ -21,6 +21,9 @@
 
 // Smartphones
 @include mediaSm {
+  .lg-heading {
+    font-size: 4em;
+  }
   .projects {
     grid-template-columns: 1fr;
   }
