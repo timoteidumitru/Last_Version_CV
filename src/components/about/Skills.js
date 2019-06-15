@@ -53,13 +53,15 @@ export default class Skills extends Component {
           <div className="about-content-first-description">
             I'm a Freelance Web Developer. <br />
             I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.<br />
-            Let's make something special and/or have some fun!
+            <span>
+              Let's make something special and/or have some fun!
+            </span>
           </div>
         </div>
         <div className="about-content-second">
           {skills.map(skill => 
             <div>
-              {skill.name} <Progress percent={parseInt(skill.level)} status="" />
+              <span className="skill-name">{skill.name}</span> <Progress percent={parseInt(skill.level)} status="" />
             </div>
           )}
         </div>

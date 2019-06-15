@@ -238,6 +238,23 @@
     padding-top: 4em;
     width: 69%;
   }
+  .about-content-first {
+    padding-top: 2em;
+    width: 95% !important;
+  }
+  .about-content-second {
+    padding-top: 2em;
+    width: 95% !important;
+  }
+  .about-content-wrapper {
+    display: block !important;
+  }
+  .about-content-first-description {
+    font-size: 1.2em;
+  }
+  .skill-name {
+    font-weight: 600;
+  }
   .content-wrapper {
     width: 90%;
   }
@@ -331,9 +348,20 @@
   clip-path: circle(49.8% at 50% 50%);
   margin: 0 auto;
 }
-
+.about-content-first-title {
+  font-size: 2.2em;
+  font-weight: bolder;
+}
+.about-content-first-description span {
+  color: rgb(34, 81, 235);
+  font-weight: 600;
+}
 
 .about-content-second {
   width: 45%;
   margin: 0 auto;
+}
+
+.skill-name {
+  font-weight: 600;
 }
