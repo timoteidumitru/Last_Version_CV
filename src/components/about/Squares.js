@@ -6,7 +6,7 @@ export default function Square() {
       <div className="item-about">
         <span className="clock">
           <div className="item-about-image-holder">
-            <i class="fas fa-tachometer-alt"></i>
+            <i class="icons-font fas fa-tachometer-alt"></i>
           </div>
         </span>
         <span className="item-abut-title">
@@ -19,7 +19,7 @@ export default function Square() {
       <div className="item-about">
         <span className="bulb">
           <div className="item-about-image-holder">
-            <i class="far fa-lightbulb"></i>
+            <i class="icons-font far fa-lightbulb"></i>
           </div>
         </span>
         <span className="item-abut-title">
@@ -32,7 +32,7 @@ export default function Square() {
       <div className="item-about">
         <span className="computer">
           <div className="item-about-image-holder">
-            <i class="fas fa-credit-card"></i>
+            <i class="icons-font fas fa-credit-card"></i>
           </div>
         </span>
         <span className="item-abut-title">
@@ -45,7 +45,7 @@ export default function Square() {
       <div className="item-about">
         <span className="rocket">
           <div className="item-about-image-holder">
-            <i class="fas fa-rocket"></i>
+            <i class="icons-font fas fa-rocket"></i>
           </div>
         </span>
         <span className="item-abut-title">
