@@ -6,8 +6,8 @@ export default function Content() {
       <div className="content-main">
         <div className="content-wrapper">
           <div className="content-header">
-            <p>I m a self-taught web developer who have one big regret and that is that i didn t start earlier this path of web development and programming in general.</p>
-            <p>The pleasure i gain from climbing something that seems unclimbable is way too big, thats why i study everyday, even more it becomes an addiction for me, i can't let pass 1-2 days without writing some code or at least watch some tutorials.</p>
+            <p>I'm a self-taught web developer who have one big regret and that is that I didn t start earlier this path of web development and programming in general.</p>
+            <p>The pleasure I gain from climbing something that seems unclimbable is way too big, thats why I study everyday, even more it becomes an addiction for me, I can't let pass 1-2 days without writing some code or at least watch some tutorials.</p>
           </div>
           <h2>My Experience</h2>
           <div className="work-experience">

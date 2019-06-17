@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import TopNav from '../about/NavAbout'
+import Content from './Content'
 import './resume.scss'
 
 export default class Index extends Component {
@@ -7,7 +8,7 @@ export default class Index extends Component {
     return (
       <div>
         <TopNav />
-        <h1>Hello from Resume Section</h1>
+        <Content />
       </div>
     )
   }
