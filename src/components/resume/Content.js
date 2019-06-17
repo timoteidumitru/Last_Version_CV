@@ -5,6 +5,11 @@ export default function Content() {
     <div>
       <div className="content-main">
         <div className="content-wrapper">
+          <div className="about-page">
+            <span className="about-main-name">
+              Resume
+            </span>
+          </div>
           <div className="content-header">
             <p>I'm a self-taught web developer who have one big regret and that is that I didn t start earlier this path of web development and programming in general.</p>
             <p>The pleasure I gain from climbing something that seems unclimbable is way too big, thats why I study everyday, even more it becomes an addiction for me, I can't let pass 1-2 days without writing some code or at least watch some tutorials.</p>

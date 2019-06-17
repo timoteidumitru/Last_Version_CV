@@ -11,6 +11,7 @@
   width: 60%;
   margin: 0 auto;
   padding: 1em 0;
+  top: 0;
 }
 
 .content-header {
@@ -43,6 +44,9 @@
   line-height: 1.7;
 }
 
+.content-header > p:nth-child(1) {
+  padding-top: 3em;
+}
 .about-intro {
   height: 94vh;
   background-color: #E0E0E0;
