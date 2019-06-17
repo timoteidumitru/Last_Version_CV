@@ -6,48 +6,50 @@ import "react-sweet-progress/lib/style.css";
 export default class Skills extends Component {
   constructor(){
     super()
-    this.state = [
-      {
-        name: "HTML",
-        level: "90%"
-      },
-      {
-        name: "CSS",
-        level: "85%"
-      },
-      {
-        name: "ReactJS",
-        level: "70%"
-      },
-      {
-        name: "JavaScript",
-        level: "75%"
-      },
-      {
-        name: "SEO",
-        level: "80%"
-      },
-      {
-        name: "NodeJS",
-        level: "45%"
-      },
-      {
-        name: "ExpressJS",
-        level: "50%"
-      },
-      {
-        name: "MongoDB",
-        level: "60%"
-      }
-    ]
+    this.state = {
+      data: [
+        {
+          name: "HTML",
+          level: "90%"
+        },
+        {
+          name: "CSS",
+          level: "85%"
+        },
+        {
+          name: "ReactJS",
+          level: "70%"
+        },
+        {
+          name: "JavaScript",
+          level: "75%"
+        },
+        {
+          name: "SEO",
+          level: "80%"
+        },
+        {
+          name: "NodeJS",
+          level: "45%"
+        },
+        {
+          name: "ExpressJS",
+          level: "50%"
+        },
+        {
+          name: "MongoDB",
+          level: "60%"
+        }
+      ]
+    }
   }
   render() {
-    const skills = this.state
+    const skills = this.state.data
     return (
       <div className="about-content-wrapper">
         <div className="about-content-first">
           <div className="about-content-first-img">
-            <img width="250" src="/images/main-photo.jpg" alt="main pic" />
+            <img width="250" src="images/main-photo.jpg" alt="main pic" />
           </div>
           <div className="about-content-first-title">Who am I?</div>
           <div className="about-content-first-description">
@@ -59,8 +61,8 @@ export default class Skills extends Component {
           </div>
         </div>
         <div className="about-content-second">
-          {skills.map(skill => 
-            <div>
+          {skills.map((skill, i) => 
+            <div key={i}>
               <span className="skill-name">{skill.name}</span> <Progress percent={parseInt(skill.level)} status="" />
             </div>
           )}

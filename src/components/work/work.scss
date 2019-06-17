@@ -121,6 +121,8 @@ main {
   @extend .btn;
   background: lighten($primary-color, 50);
   color: #333;
+  width: 100%;
+  text-align: left;
 }
 
 #main-footer {
