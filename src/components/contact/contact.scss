@@ -1,6 +1,6 @@
 .contact-main {
   width: 100vw;
-  height: 100vh;
+  // height: 100vh;
   background-color: rgb(73, 73, 73);
   color: white;
   position: relative;
@@ -79,6 +79,7 @@
   margin: auto;
   width: 85%;
   max-width: 460px;
+  margin-bottom: 5em;
 }
 
 @media only screen and (max-width: 800px) {

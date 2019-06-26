@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import TopNav from "../about/NavAbout";
+import Footer from "../about/Footer";
 import './contact.scss'
 
 export default class Index extends Component {
@@ -36,6 +37,7 @@ export default class Index extends Component {
               Submit
             </button>
           </div>
+          <Footer />
         </div>
       </div>
     )

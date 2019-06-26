@@ -11,12 +11,18 @@ class Menu extends Component {
         toggle: false,
     }
   }
+
   toggleMenu = () => {
     const currentState = this.state.toggle;
     this.setState({ toggle: !currentState })
     let classToggle = document.getElementById("toggle-menu-button");
     classToggle.classList.toggle("show")
   }
+  toggleGoMenu = () => {
+    let classToggle = document.getElementById("toggle-menu-button");
+    classToggle.classList.toggle("show")
+  }
+
     render() {
       return (
       <div>
