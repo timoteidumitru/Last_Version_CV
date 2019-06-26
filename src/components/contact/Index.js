@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import TopNav from "../about/NavAbout";
 import './contact.scss'
 
 export default class Index extends Component {
@@ -6,10 +7,11 @@ export default class Index extends Component {
     return (
       <div className="contact-main">
         <div className="contact-wrapper">
+          <TopNav />
           <div className="contact-header">
             <h2 className="contact-title">Contact</h2>
             <p className="contact-subtitle">
-              Have a question for me or want to work together?
+              Have a question or want to work together?
             </p>
           </div>
           <div className="contact-from">
@@ -30,6 +32,9 @@ export default class Index extends Component {
               cols="35"
               >
             </textarea>
+            <button className="contact-form-button">
+              Submit
+            </button>
           </div>
         </div>
       </div>
