@@ -77,9 +77,18 @@
 
 .contact-from {
   margin: auto;
-  width: 85%;
-  max-width: 460px;
+  width: 100%;
+  max-width: 1024px;
   margin-bottom: 5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-map {
+  width: 50%;
+}
+.contact-message {
+  width: 45%;
 }
 
 @media only screen and (max-width: 800px) {
