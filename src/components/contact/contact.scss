@@ -110,4 +110,29 @@
     width: 20%;
     left: 40%;
   }
+  .contact-from {
+    display: block;
+  }
+  
+  .contact-map {
+    width: 95vw;
+    display: inline-block;
+  }
+
+  .contact-map iframe {
+    margin: 0 auto;
+    width: 95vw;
+    margin-top: 5em;
+    display: inline-block;
+  }
+  .contact-map iframe[width] {
+    width: 94vw;
+    margin: 0 auto;
+    padding-left: 3vw;
+  }
+  .contact-message {
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 5em;
+  }
 }
