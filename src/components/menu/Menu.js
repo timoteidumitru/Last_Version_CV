@@ -18,10 +18,6 @@ class Menu extends Component {
     let classToggle = document.getElementById("toggle-menu-button");
     classToggle.classList.toggle("show")
   }
-  toggleGoMenu = () => {
-    let classToggle = document.getElementById("toggle-menu-button");
-    classToggle.classList.toggle("show")
-  }
 
     render() {
       return (
