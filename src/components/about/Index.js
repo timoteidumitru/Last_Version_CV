@@ -6,7 +6,7 @@ import Skills from './Skills';
 import Footer from './Footer';
 
 export default class Index extends Component {
-
+  
   render() {
     return (
       <div className="about-main">
