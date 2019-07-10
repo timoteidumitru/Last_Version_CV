@@ -1,11 +1,11 @@
 
 ### Last Version CV
 
-###### ->This is a single page portfolio website created for Front End development test and for personal practice.<br>
+###### ->This is a single page portfolio website created for Front End development test and for personal practice and serv as a resume.<br>
 
-###### ->The design is from <a href="https://www.nespoulous-design.com/">Nespoulous Design</a><br>
+###### ->The design was created by <a href="https://www.nespoulous-design.com/">Nespoulous Design</a><br>
 
-###### ->To build this project i use: ReactJS, JavaScript, CSS, HTML, Favicon.io.<br>
+###### ->To build this project I use: ReactJS, JavaScript, CSS, HTML, Favicon.io.<br>
 
 ###### ->Photos are free from Pexel.com<br><br>
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

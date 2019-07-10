@@ -14,31 +14,27 @@ export default class Skills extends Component {
         },
         {
           name: "CSS",
-          level: "85%"
+          level: "90%"
         },
         {
           name: "ReactJS",
-          level: "70%"
+          level: "85%"
         },
         {
           name: "JavaScript",
-          level: "75%"
-        },
-        {
-          name: "SEO",
           level: "80%"
         },
         {
           name: "NodeJS",
-          level: "45%"
+          level: "70%"
         },
         {
           name: "ExpressJS",
-          level: "50%"
+          level: "77%"
         },
         {
           name: "MongoDB",
-          level: "60%"
+          level: "80%"
         }
       ]
     }

@@ -8,7 +8,7 @@ export default function HeaderText() {
         Hello,<br />
         I'm Timotei,<br />
         a Junior<br />
-        Front-End<br />
+        FullStack Web<br />
         Developer
       <span className="based-in-london">based in London</span>
       </div>
