@@ -196,8 +196,45 @@ body {
   display: block;
 }
 
+@media only screen and (min-width: 1441px) {
+  .header-text {
+    position: absolute;
+    top: 23.61%;
+    left: 38.85%;
+    height: 52.71%;
+    width: 33.2%;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 105px;
+    font-weight: 700;
+    line-height: 120px;
+    cursor: default;
+  }
+  .based-in-london {
+    font-size: 40px;
+    margin-left: 0.2em;
+  }
+  .left-name-text {
+    height: 350.5px;
+    width: 40px;
+    font-size: 40px;
+  }
+  .rectangle {
+    height: 4.55em;
+    width: 16em;
+  }
+  .start-project {
+    font-size: 1.5em;
+  }
+  .path-1 {
+    height: 26px;
+    width: 50.5px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+  }
+}
 
-@media only screen and (max-width: 1367px) {
+@media only screen and (max-width: 1440px) {
   .header-text {
     position: absolute;
     top: 23.61%;
@@ -246,7 +283,7 @@ body {
 @media only screen and (max-width: 480px) {
   .header-text {
     width: 60%;
-    top: 25.61%;
+    top: 20.61%;
     left: 26.85%;
     font-size: 35px;
     line-height: 1.3;
