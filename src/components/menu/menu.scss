@@ -278,9 +278,9 @@ li.menu-item:hover {
 
 @media only screen and (min-width: 1441px) {
   .menu-list {
-    font-size: 7em;
-    left: 1.6em;
-    top: 1em;
+    font-size: 10em;
+    left: 2.6em;
+    top: 2.5em;
   }
   .social-section {
     display: flex;
@@ -291,6 +291,31 @@ li.menu-item:hover {
   }
   .social-icon {
     margin-right: 0.2em;
+  }
+  .social-icon img {
+    height: 0.3em;
+  }
+  .left-name-menu {
+    top: 44%;
+  }
+  .left-name-menu-text {
+    height: 290.5px;
+    width: 32px;
+    font-size: 34px;
+    font-weight: 400;
+  }
+  .button-text {
+    font-size: 1.6em;
+  }
+  .button-wrapper {
+    height: 5.55em;
+    width: 13.5em;
+  }
+  .path-2 {
+    margin-top: 0.5em;
+  }
+  .path-2::after {
+    font-size: 4em;
   }
 }
 
