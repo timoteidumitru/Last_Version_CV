@@ -204,6 +204,36 @@
   padding-bottom: 2em;
 }
 
+@media only screen and (min-width: 1440px) {
+  .about-page {
+    font-size: 5em;
+    padding-top: 2em;
+  }
+  .go-menu::after {
+    content: '\D7';
+    font-size: 5.5em;
+    width: 2em;
+}
+  .header-text-about {
+    top: 22%;
+    left: 32.85%;
+    width: 37.2%;
+    font-size: 7em;
+    line-height: 1.5;
+  }
+  .about-items-wrapper, .about-content-wrapper {
+    max-width: 1920px;
+  }
+  .item-about-image-holder {
+    height: 11em;
+    max-width: 24em;
+  }
+  .icons-font {
+    line-height: 2.3;
+    font-size: 4.6em;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .about-page {
     margin-bottom: -2em;
