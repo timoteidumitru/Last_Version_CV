@@ -5,6 +5,46 @@ import './work.scss'
 import '../../App.scss'
 
 const Index = () => {
+  
+  const projects = [
+    {
+      name: 'Fashion Today',
+      img: '/images/my-work/fashion-today.jpg',
+      sampleLink: 'https://shokadinueu.github.io/fashion-today/',
+      gitLink: 'https://github.com/ShokadinuEU/fashion-today'
+    },
+    {
+      name: 'Get Weather App',
+      img: '/images/my-work/weather-app.jpg',
+      sampleLink: 'https://shokadinueu.github.io/get-weather-app/',
+      gitLink: 'https://github.com/ShokadinuEU/get-weather-app'
+    },
+    {
+      name: 'Development Website',
+      img: '/images/my-work/development-website.jpg',
+      sampleLink: 'https://shokadinueu.github.io/development-website/',
+      gitLink: 'https://github.com/ShokadinuEU/development-website'
+    },
+    {
+      name: 'Type-n-Speak',
+      img: '/images/my-work/type-n-speak.jpg',
+      sampleLink: 'https://shokadinueu.github.io/type_n_speak_app/',
+      gitLink: 'https://github.com/ShokadinuEU/type_n_speak_app'
+    },
+    {
+      name: 'React Cool Apps',
+      img: '/images/my-work/react-apps.jpg',
+      sampleLink: 'https://shokadinueu.github.io/react-cool-apps/',
+      gitLink: 'https://github.com/ShokadinuEU/react-cool-apps'
+    },
+    {
+      name: 'First Online CV',
+      img: '/images/my-work/first-cv-online.jpg',
+      sampleLink: 'https://shokadinueu.github.io/my-cv-tim/',
+      gitLink: 'https://github.com/ShokadinuEU/my-cv-tim/'
+    }
+  ]
+
   return (
     <div id="work" className="work-main">
       <NavAbout />
@@ -18,78 +58,22 @@ const Index = () => {
         </h2>
       </div>
       <div className="projects">
-        {/* <!-- First Item --> */}
-        <div className="item">
-          <button>
-            <img className="project-img" src="images/my-work/fashion-today.jpg" alt="Latest Project" />
-          </button>
-          <button className="btn-light">
-            <i className="fas fa-eye"></i> Fashion Today
-          </button>
-          <a href="https://shokadinueu.github.io/fashion-today/" target="_blank" rel="noopener noreferrer" className="btn-dark">
-            <i className="fab fa-github"> GitHub </i> 
-          </a>
-        </div>
-        {/* <!-- Second Item --> */}
-        <div className="item">
-          <button>
-            <img className="project-img" src="images/my-work/development-website.jpg" alt="Development Website" />
-          </button>
-          <button className="btn-light">
-            <i className="fas fa-eye"></i> Development Website
-          </button>
-          <a href="https://shokadinueu.github.io/development-website/" target="_blank" rel="noopener noreferrer" className="btn-dark">
-            <i className="fab fa-github"> GitHub </i> 
-          </a>
-        </div>
-        {/* <!-- Third Item --> */}
-        <div className="item">
-          <button>
-            <img className="project-img" src="images/my-work/weather-app.jpg" alt="Get Weather APP" />
-          </button>
-          <button className="btn-light">
-            <i className="fas fa-eye"></i> Get Weather App
-          </button>
-          <a href="https://shokadinueu.github.io/get-weather-app/" target="_blank" rel="noopener noreferrer" className="btn-dark">
-            <i className="fab fa-github">  GitHub</i>
-          </a>
-        </div>
-        {/* <!-- Fourth Item --> */}
-        <div className="item">
-          <button>
-            <img className="project-img" src="images/my-work/type-n-speak.jpg" alt="Type-n-Speak" />
-          </button>
-          <button className="btn-light">
-            <i className="fas fa-eye"></i> Type-n-Speak
-          </button>
-          <a href="https://shokadinueu.github.io/type_n_speak_app/" target="_blank" rel="noopener noreferrer" className="btn-dark">
-            <i className="fab fa-github"></i> GitHub
-          </a>
-        </div>
-        {/* <!-- Fifth Item --> */}
-        <div className="item">
-          <button>
-            <img className="project-img" src="images/my-work/apple-stock.jpg" alt="Apple Stock" />
-          </button>
-          <button className="btn-light">
-            <i className="fas fa-eye"></i> Apple Stock App
-          </button>
-          <a href="https://shokadinueu.github.io/apple-stock-info/" target="_blank" rel="noopener noreferrer" className="btn-dark">
-            <i className="fab fa-github"> GitHub </i> 
-          </a>
-        </div>
-        {/* <!-- Sixth Item --> */}
-        <div className="item">
-          <button>
-            <img className="project-img" src="images/my-work/first-cv-online.jpg" alt="First CV" />
-          </button>
-          <button className="btn-light">
-            <i className="fas fa-eye"></i> First CV
-          </button>
-          <a href="https://shokadinueu.github.io/my-CV" target="_blank" rel="noopener noreferrer" className="btn-dark">
-            <i className="fab fa-github"></i> GitHub
-          </a>
-        </div>
+        { projects.map((project, i) => 
+            <div className="item" key={i}>
+              <button>
+                <img className="project-img" src={project.img} alt={project.name} />
+              </button>
+              <button className="btn-light">
+                <a href={project.sampleLink} target="_blank" rel="noopener noreferrer" className="btn-light">
+                  <i className="fas fa-eye">{project.name} - View</i> 
+                </a>
+              </button>
+              <a href={project.gitLink} target="_blank" rel="noopener noreferrer" className="btn-dark">
+                <i className="fab fa-github"> GitHub </i> 
+              </a>
+            </div>
+          )
+        }
       </div>
       <Footer />
     </div>
