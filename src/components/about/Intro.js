@@ -1,34 +1,31 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './about.scss'
-import NavAbout from './NavAbout'
+import TopNav from './TopNav'
 
 
-class Intro extends Component {
-
-  render() {
-    return (
-      <div className="intro-main">
-        <div className="about-intro">
-          <NavAbout />
-          <div className="about-page">
-            <span className="about-main-name">
-              About
-            </span>
-          </div>
-          <div className="left-name">
-            <p className="left-name-text">Timotei Dumitru</p>
-          </div>
-          <div className="header-text-about">
-            The pleasure <br />
-            I gain from climbing  <br />
-            something that  <br />
-            seems unclimbable! <br />
-          </div>
+const Intro = () => {
+  return (
+    <div className="intro-main">
+      <div className="about-intro">
+        <TopNav />
+        <div className="about-page">
+          <span className="about-main-name">
+            About
+          </span>
         </div>
-        <div className="office-image"></div>
+        <div className="left-name">
+          <p className="left-name-text">Timotei Dumitru</p>
+        </div>
+        <div className="header-text-about">
+          The pleasure <br />
+          I gain from climbing  <br />
+          something that  <br />
+          seems unclimbable! <br />
+        </div>
       </div>
-    )
-  }
+      <div className="office-image"></div>
+    </div>
+  )
 }
 
 export default Intro
