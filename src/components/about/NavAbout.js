@@ -9,13 +9,19 @@ export default class NavAbout extends Component {
     super(props)
     this.state = {
         toggle: false,
+        showMenu: true
     }
   }
-  toggleClass = () => {
+  toggleMenu = () => {
     const currentState = this.state.toggle
+    this.props.history.push('/');
     this.setState({ toggle: !currentState })
-    let classToggle = document.getElementById("toggle-menu-button")
-    classToggle.classList.toggle("show")
+    var mainPage = document.getElementById("toggle-menu-button")
+    if(this.state.showMenu) {
+      setTimeout(() => {
+        mainPage.classList.toggle("show")
+      }, 500)
+    }
   }
   render() {
     return(
@@ -23,8 +29,7 @@ export default class NavAbout extends Component {
         <div className="nav-activator-about" >
           <button
             type='button'
-            onClick={() => { history.push('/') }}
-            onKeyUp={this.toggleClass}
+            onClick={this.toggleMenu}
             className="go-menu"
           >
           </button>

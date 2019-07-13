@@ -22,10 +22,10 @@ class Menu extends Component {
     render() {
       return (
       <div>
-        <div id="toggle-menu-button" className="menu-wrapper">
+        <div id="toggle-menu-button" className="menu-wrapper show">
           <MenuList />
           <LeftName />
-          <TopNav toggleMenu={this.toggleMenu} />
+          <TopNav />
         </div>
       </div>
     )

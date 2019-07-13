@@ -22,7 +22,7 @@ class Index extends Component {
   render() {
     return (
       <div className="landing-page">
-        <TopMenu toggleClass={this.toggleClass}/>
+        <TopMenu />
         <LeftName />
         <HeaderText />
       </div>

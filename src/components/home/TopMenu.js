@@ -1,20 +1,20 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import './header.scss'
 
 function TopMenu(props) {
-  const { toggleClass } = props
   return (
     <div>
       <div className="right-menu">
           <div className="group-1">
             <div className="rectangle">
-              <div onClick={toggleClass} className="start-project">start project</div>
+              <div className="start-project"><Link to={'/menu'}>start project</Link></div>
             </div>
           </div>
           <div className="group"  >
-            <div className="path-1"
-                 onClick={toggleClass}
-            ></div>
+            <div className="path-1">
+              <Link to={'/menu'}></Link>
+            </div>
           </div>
         </div>
     </div>
