@@ -1,19 +1,22 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import './menu.scss'
 
-function TopMenu(props) {
-  const { toggleMenu } = props
+const TopMenu = () => {
   return (
     <div>
       <div className="right-nav">
           <div className="nav-button">
             <div className="button-wrapper">
-              <div onClick={toggleMenu} className="button-text">main page</div>
+            <Link to={'/'}>
+              <div className="button-text-menu">main page</div>
+            </Link>
             </div>
           </div>
           <div className="nav-activator">
-            <div className="path-2" onClick={toggleMenu}
-            ></div>
+            <Link to={'/'}>
+              <div className="path-2"></div>
+            </Link>
           </div>
         </div>
     </div>

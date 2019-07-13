@@ -177,19 +177,20 @@ li.menu-item:hover {
   display: none;
 }
 
-.button-text {
+.button-text-menu {
 	height: 0.9375em;
-	width: 8.2875em;
+	width: 8.5em;
 	color: #fff;
 	font-family: Montserrat;
 	font-size: 0.75em;
-	font-weight: 700;
+	font-weight: 600;
   line-height: 0.9375em;
   text-transform: uppercase;
   padding: 1.23125em;
   transition: all 1s;
   &:hover {
-    color: var(--inv);
+    color: #000;
+    font-weight: 900;
     cursor: pointer;
   }
 }

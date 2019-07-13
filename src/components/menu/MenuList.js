@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { NavLink } from "react-router-dom"
-import './menu.scss'
 import SocialIcons from './SocialIcons'
+import './menu.scss'
 
 class MenuList extends Component {
 

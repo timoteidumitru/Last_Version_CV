@@ -8,17 +8,20 @@ function TopMenu(props) {
       <div className="right-menu">
           <div className="group-1">
             <div className="rectangle">
-              <div className="start-project"><Link to={'/menu'}>start project</Link></div>
+              <Link to={'/menu'}>
+                <div className="button-text-home">
+                  start project
+                </div>
+              </Link>
             </div>
           </div>
           <div className="group"  >
-            <div className="path-1">
-              <Link to={'/menu'}></Link>
-            </div>
+              <Link to={'/menu'}><div className="path-1"></div></Link>
           </div>
         </div>
     </div>
   )
 }
+
 
 export default TopMenu
