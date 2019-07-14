@@ -8,23 +8,23 @@ self.__precacheManifest = [
     "url": "/Last_Version_CV/static/js/runtime~main.ec179346.js"
   },
   {
-    "revision": "eb325561e8dfc9dbd212",
-    "url": "/Last_Version_CV/static/js/main.eb325561.chunk.js"
+    "revision": "2e3bb10c0efc83d3e164",
+    "url": "/Last_Version_CV/static/js/main.2e3bb10c.chunk.js"
   },
   {
-    "revision": "f8de035f503bef751af0",
-    "url": "/Last_Version_CV/static/js/1.f8de035f.chunk.js"
+    "revision": "0046d9d29478c7519c5b",
+    "url": "/Last_Version_CV/static/js/1.0046d9d2.chunk.js"
   },
   {
-    "revision": "eb325561e8dfc9dbd212",
-    "url": "/Last_Version_CV/static/css/main.08ca5e1d.chunk.css"
+    "revision": "2e3bb10c0efc83d3e164",
+    "url": "/Last_Version_CV/static/css/main.07d9649f.chunk.css"
   },
   {
-    "revision": "f8de035f503bef751af0",
+    "revision": "0046d9d29478c7519c5b",
     "url": "/Last_Version_CV/static/css/1.56aa1d9c.chunk.css"
   },
   {
-    "revision": "184bc0b463c6bac3bca44cbacfe8b314",
+    "revision": "e75bb014242a5960529afa7f9d0987bc",
     "url": "/Last_Version_CV/index.html"
   }
 ];
