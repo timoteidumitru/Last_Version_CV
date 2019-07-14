@@ -9,37 +9,37 @@ const Index = () => {
   const projects = [
     {
       name: 'Fashion Today',
-      img: '/images/my-work/fashion-today.jpg',
+      img: 'images/my-work/fashion-today.jpg',
       sampleLink: 'https://shokadinueu.github.io/fashion-today/',
       gitLink: 'https://github.com/ShokadinuEU/fashion-today'
     },
     {
       name: 'Get Weather App',
-      img: '/images/my-work/weather-app.jpg',
+      img: 'images/my-work/weather-app.jpg',
       sampleLink: 'https://shokadinueu.github.io/get-weather-app/',
       gitLink: 'https://github.com/ShokadinuEU/get-weather-app'
     },
     {
       name: 'Development Website',
-      img: '/images/my-work/development-website.jpg',
+      img: 'images/my-work/development-website.jpg',
       sampleLink: 'https://shokadinueu.github.io/development-website/',
       gitLink: 'https://github.com/ShokadinuEU/development-website'
     },
     {
       name: 'Type-n-Speak',
-      img: '/images/my-work/type-n-speak.jpg',
+      img: 'images/my-work/type-n-speak.jpg',
       sampleLink: 'https://shokadinueu.github.io/type_n_speak_app/',
       gitLink: 'https://github.com/ShokadinuEU/type_n_speak_app'
     },
     {
       name: 'React Cool Apps',
-      img: '/images/my-work/react-apps.jpg',
+      img: 'images/my-work/react-apps.jpg',
       sampleLink: 'https://shokadinueu.github.io/react-cool-apps/',
       gitLink: 'https://github.com/ShokadinuEU/react-cool-apps'
     },
     {
       name: 'First Online CV',
-      img: '/images/my-work/first-cv-online.jpg',
+      img: 'images/my-work/first-cv-online.jpg',
       sampleLink: 'https://shokadinueu.github.io/my-cv-tim/',
       gitLink: 'https://github.com/ShokadinuEU/my-cv-tim/'
     }
