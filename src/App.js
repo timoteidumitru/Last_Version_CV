@@ -10,8 +10,11 @@ import Contact from './components/contact/Index'
 import posed, { PoseGroup } from 'react-pose';
 
 const RouteContainer = posed.div({
-  enter: { y: 0, opacity: 1, beforeChildren: true },
-  exit: { y: '90%', opacity: 0 }
+  enter: { y: 0, opacity: 1, beforeChildren: true, ease: 'decay' },
+  exit: { y: '100%', opacity: .5 },
+  transition: {
+    x: { type: 'spring' }
+  }
 })
 
 const App = () => (
@@ -21,8 +24,8 @@ const App = () => (
         <PoseGroup>
           <RouteContainer key={location.pathname}>
             <Switch location={location}>
-              <Route path="/" exact component={Home} />
-              <Route path="/menu" component={Menu} />
+              <Route path="/" exact component={Home} key='home' />
+              <Route path="/menu" component={Menu} key='menu' />
               <Route path="/about" component={About} />
               <Route path="/work" component={Work} />
               <Route path="/resume" component={Resume} />
