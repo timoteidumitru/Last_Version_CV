@@ -204,7 +204,24 @@
   padding-bottom: 2em;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (max-width: 3840px) {
+  .header-text-about {
+    top: 22%;
+    left: 32.85%;
+    font-size: 6em;
+    line-height: 1.8;
+  }
+  .about-page {
+    font-size: 7em;
+    padding-top: 2em;
+  }
+  .go-menu::after {
+    content: '\D7';
+    font-size: 5em;
+  }
+}
+
+@media only screen and (max-width: 2160px) {
   .about-page {
     font-size: 5em;
     padding-top: 2em;
@@ -215,10 +232,10 @@
     width: 2em;
 }
   .header-text-about {
-    top: 22%;
+    top: 14%;
     left: 32.85%;
     width: 37.2%;
-    font-size: 7em;
+    font-size: 3.5em;
     line-height: 1.5;
   }
   .about-items-wrapper, .about-content-wrapper {
@@ -234,9 +251,32 @@
   }
 }
 
+@media only screen and (max-width: 1440px) {
+  .about-page {
+    font-size: 3.5em;
+  }
+  .go-menu::after {
+    font-size: 4em;
+  }
+  .header-text-about {
+    top: 14%;
+    left: 32.85%;
+    width: 37.2%;
+    font-size: 2.7em;
+    line-height: 1.5;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .about-page {
     margin-bottom: -2em;
+    font-size: 2em;
+  }
+  .header-text-about {
+    left: 23%;
+    font-size: 1.8em;
+    padding-top: 2em;
+    line-height: 2;
   }
   .about-main-name::after {
     content: '';
@@ -269,8 +309,7 @@
   }
   .header-text-about {
     font-size: 2em;
-    padding-top: 4em;
-    width: 69%;
+    width: 71%;
   }
   .about-content-first {
     padding-top: 2em;

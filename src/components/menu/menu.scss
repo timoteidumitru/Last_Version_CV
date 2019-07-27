@@ -277,15 +277,42 @@ li.menu-item:hover {
   line-height: 0.5;
 }
 
-@media only screen and (min-width: 1441px) {
-  .button-text-menu {
-    margin: auto;
-    font-size: 1.5em;
+@media only screen and (max-width: 3840px) {
+  .left-name-menu {
+    top: 41%
+  }
+  .left-name-menu-text {
+    font-size: 1.4em
   }
   .menu-list {
-    font-size: 10em;
+    font-size: 9em;
+    top: 20%;
+    left: 15%;
+  }
+  .nav-button {
+    right: 10.8%;
+  }
+  .button-text-menu {
+    font-size: 1.18em;
+  }
+  .button-wrapper {
+    height: 3.55em;
+    width: 10em;
+  }
+  .path-2::after {
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 2160px) {
+  .button-text-menu {
+    margin: auto;
+    font-size: 1.1em;
+    padding: 0.8em;
+  }
+  .menu-list {
     left: 2.6em;
-    top: 2.5em;
+    font-size: 7em;
+    margin-top: 2em;
   }
   .social-section {
     display: flex;
@@ -306,28 +333,35 @@ li.menu-item:hover {
   .left-name-menu-text {
     height: 290.5px;
     width: 32px;
-    font-size: 34px;
+    font-size: 1.2em;
     font-weight: 400;
   }
   .button-text {
     font-size: 1.6em;
   }
   .button-wrapper {
-    height: 5.55em;
-    width: 13.5em;
+    height: 3em;
+    width: 8.5em;
   }
   .path-2 {
-    margin-top: 0.5em;
+    margin-top: 0.3em;
   }
   .path-2::after {
-    font-size: 4em;
+    font-size: 2em;
   }
 }
 
 @media only screen and (max-width: 1441px) {
+  .button-text-menu {
+    margin: auto;
+    font-size: 1.1em;
+    padding: 0.8em;
+    font-size: 1em;
+  }
   .menu-list {
+    left: 2.6em;
     font-size: 6em;
-    left: 1.6em;
+    margin-top: 2em;
   }
   .social-section {
     display: flex;
@@ -339,23 +373,37 @@ li.menu-item:hover {
   .social-icon {
     margin-right: 0.2em;
   }
-  .left-name-menu-text {
-    height: 240.5px;
-    font-size: 18px;
-    font-weight: 600;
+  .social-icon img {
+    height: 0.3em;
   }
-  .left-name-email {
-    top: 70%;
-    left: 14px;
-    font-size: 12px;
-    font-weight: 100;
+  .left-name-menu {
+    top: 44%;
+  }
+  .left-name-menu-text {
+    height: 290.5px;
+    width: 32px;
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+  .button-text {
+    font-size: 1.6em;
+  }
+  .button-wrapper {
+    height: 2.5em;
+    width: 7.7em;
+  }
+  .path-2 {
+    margin-top: 0.3em;
+  }
+  .path-2::after {
+    font-size: 2em;
   }
 }
 
 @media only screen and (max-width: 1281px) {
   .menu-list {
-    font-size: 7em;
-    left: 1.6em;
+    font-size: 5em;
+    left: 16%;
     top: 1em;
   }
 }
@@ -363,7 +411,7 @@ li.menu-item:hover {
 
 @media only screen and (max-width: 769px) {
   .menu-list {
-    font-size: 6em;
+    font-size: 5em;
     left: 1.6em;
     top: 2em;
   }
@@ -392,9 +440,11 @@ li.menu-item:hover {
     font-size: 13px;
   }
   .nav-button {
-    right: 33.5%;
+    /* right: 33.5%; */
     bottom: 3%;
     top: auto;
+    margin: auto;
+    left: 8%;
   }
   .nav-activator {
     top: 4.31%;
@@ -408,4 +458,23 @@ li.menu-item:hover {
   .social-icon {
     margin-right: 0.2em;
   }
+  .path-2::after {
+    font-size: 1em;
+  }
+  .path-1 {
+    height: 1em;
+    width: 1.5em;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+  }
+}
+
+@media only screen and (max-height: 900px) {
+  .left-name-menu-text {
+    font-size: 1.1em;
+  }
+  // .menu-list {
+  //   font-size: 6em;
+  //   margin-top: 2.5em;
+  // }
 }

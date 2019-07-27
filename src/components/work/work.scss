@@ -145,7 +145,8 @@ main {
     padding-top: 7em;
     max-width: 1640px;
     margin: auto;
-    height: calc(100vh - 20vh);
+    height: 100%;
+    min-height: calc(100vh - 20vh);
   }
 }
 @media only screen and (max-width: 1440px) {

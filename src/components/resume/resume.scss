@@ -7,11 +7,9 @@
     margin-bottom: 5em;
   }
   .content-main {
-    height: 100vh;
+    min-height: 100vh;
   }
-  .contact-main {
-    height: 100vh;
-  }
+
 }
 
 @media only screen and (max-width: 1441px) {

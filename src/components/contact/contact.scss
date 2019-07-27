@@ -92,15 +92,22 @@
 }
 
 @media only screen and (min-width: 1441px) {
+  .contact-main {
+    min-height: 100vh;
+  }
   .contact-wrapper {
     display: block;
     height: calc(100vh - 22.5vh);
     padding-top: 10em;
-    max-width: 1440px;
+    max-width: 1600px;
     margin: auto;
   }
+  .comtact-title {
+    font-size: 2em;
+  }
   .contact-from {
-    display: block;
+    display: flex;
+    max-width: 1600px;
   }
   .contact-message {
     display: block;

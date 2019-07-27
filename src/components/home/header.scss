@@ -195,61 +195,129 @@ body {
   display: block;
 }
 
-@media only screen and (min-width: 1441px) {
+@media only screen and (max-width: 3840px) {
+  .left-name {
+    top: 41%
+  }
+  .left-name-text {
+    font-size: 1.7em;
+  }
+  .header-text {
+    top: 28.61%;
+    left: 38.85%;
+    height: 52.71%;
+    font-size: 7em;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .based-in-london {
+    font-size: 0.3em;
+  }
+  .group-1 {
+    right: 9.8%;
+    top: 4.17%;
+    height: 3.55em;
+    width: 9.1em;
+    position: absolute;
+  }
+  .rectangle {
+    height: 3.55em;
+    width: 10.1em;
+  }
+  .button-text-home {
+    font-size: 0.9em;
+  }
+  .group {
+    top: 4.71%;
+  }
+  .path-1 {
+    height: 2em;
+    width: 3em;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+  }
+}
+@media only screen and (max-width: 2160px) {
   .button-text-home {
     margin: auto;
-    font-size: 1.5em;
+    font-size: 0.8em;
   }
   .header-text {
     position: absolute;
     top: 23.61%;
-    left: 38.85%;
+    left: 35.85%;
     height: 52.71%;
     width: 33.2%;
-    color: #000;
-    font-family: Montserrat;
-    font-size: 105px;
+    font-size: 6em;
     font-weight: 700;
-    line-height: 120px;
-    cursor: default;
+    line-height: 1.1;
   }
   .based-in-london {
-    font-size: 40px;
+    font-size: 0.3em;
     margin-left: 0.2em;
+  }
+  .left-name {
+    top: 42%;
   }
   .left-name-text {
     height: 350.5px;
     width: 40px;
-    font-size: 40px;
+    font-size: 1.5em;
   }
   .rectangle {
-    height: 4.55em;
-    width: 16em;
+    height: 3em;
+    width: 9.5em;
   }
   .start-project {
     font-size: 1.5em;
   }
   .path-1 {
-    height: 26px;
-    width: 50.5px;
+    height: 1.4em;
+    width: 2.5em;
     border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
+    border-bottom: 4px solid #000;
   }
 }
 
 @media only screen and (max-width: 1440px) {
+  .button-text-home {
+    margin: auto;
+    font-size: 0.8em;
+  }
   .header-text {
     position: absolute;
     top: 23.61%;
-    left: 38.85%;
+    left: 35.85%;
     height: 52.71%;
     width: 33.2%;
-    color: #000;
-    font-family: Montserrat;
-    font-size: 65px;
+    font-size: 4em;
     font-weight: 700;
-    line-height: 60px;
-    cursor: default;
+    line-height: 1.1;
+  }
+  .based-in-london {
+    font-size: 0.3em;
+    margin-left: 0.2em;
+  }
+  .left-name {
+    top: 42%;
+  }
+  .left-name-text {
+    height: 350.5px;
+    width: 40px;
+    font-size: 1.5em;
+  }
+  .rectangle {
+    height: 2.8em;
+    width: 9em;
+  }
+  .start-project {
+    font-size: 1.5em;
+  }
+  .path-1 {
+    height: 1.3em;
+    width: 2.1em;
+    border-top: 2px solid #000;
+    border-bottom: 4px solid #000;
   }
 }
 
@@ -267,8 +335,8 @@ body {
     left: 34.85%;
     height: 39.71%;
     width: 48.2%;
-    font-size: 82px;
-    line-height: 1.2;
+    font-size: 3em;
+    line-height: 1.5;
   }
 }
 
