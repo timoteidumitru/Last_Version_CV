@@ -139,3 +139,28 @@ main {
 }
 
 @import './mobile.scss';
+
+@media only screen and (min-width: 1441px) {
+  .content-work {
+    padding-top: 7em;
+    max-width: 1640px;
+    margin: auto;
+    height: calc(100vh - 20vh);
+  }
+}
+@media only screen and (max-width: 1440px) {
+  
+}
+@media only screen and (max-width: 1280px) {
+
+}
+@media only screen and (max-width: 1024px) {
+  
+}
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+
+}

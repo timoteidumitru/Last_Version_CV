@@ -278,6 +278,10 @@ li.menu-item:hover {
 }
 
 @media only screen and (min-width: 1441px) {
+  .button-text-menu {
+    margin: auto;
+    font-size: 1.5em;
+  }
   .menu-list {
     font-size: 10em;
     left: 2.6em;

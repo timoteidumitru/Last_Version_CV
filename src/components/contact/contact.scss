@@ -91,7 +91,46 @@
   width: 45%;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 1441px) {
+  .contact-wrapper {
+    display: block;
+    height: calc(100vh - 22.5vh);
+    padding-top: 10em;
+    max-width: 1440px;
+    margin: auto;
+  }
+  .contact-from {
+    display: block;
+  }
+  .contact-message {
+    display: block;
+    padding: 3em;
+    margin: 3em auto;
+  }
+  .contact-map {
+    display: block;
+    margin: 2em 5em;
+    padding: 2em;
+  }
+  .contact-map > iframe {
+    margin: 0 auto;
+    display: block;
+  }
+  iframe {
+    width: 768px;
+    height: 455px;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  
+}
+@media only screen and (max-width: 1280px) {
+
+}
+@media only screen and (max-width: 1024px) {
+  
+}
+@media only screen and (max-width: 768px) {
   .contact-title::after {
     width: 8%;
     left: 46%;

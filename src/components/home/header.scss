@@ -191,12 +191,15 @@ body {
   font-family: Montserrat;
   font-size: 11px;
   line-height: 20px;
-  /* padding-top: 0.3em; */
   margin-left: 0.3em;
   display: block;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1441px) {
+  .button-text-home {
+    margin: auto;
+    font-size: 1.5em;
+  }
   .header-text {
     position: absolute;
     top: 23.61%;
