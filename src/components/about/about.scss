@@ -274,8 +274,9 @@
   }
   .header-text-about {
     left: 23%;
-    font-size: 1.8em;
-    padding-top: 2em;
+    font-size: 1.3em;
+    width: 60%;
+    margin-top: 4em;
     line-height: 2;
   }
   .about-main-name::after {
@@ -306,10 +307,6 @@
   .item-about-message {
     font-size: 1.2em !important;
     color: #6d6363;
-  }
-  .header-text-about {
-    font-size: 2em;
-    width: 71%;
   }
   .about-content-first {
     padding-top: 2em;
