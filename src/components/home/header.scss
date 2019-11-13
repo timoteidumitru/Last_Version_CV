@@ -240,7 +240,8 @@ body {
 @media only screen and (max-width: 2160px) {
   .button-text-home {
     margin: auto;
-    font-size: 0.8em;
+    font-size: 0.7em;
+    width: 8.47em;
   }
   .header-text {
     position: absolute;
@@ -248,7 +249,7 @@ body {
     left: 35.85%;
     height: 52.71%;
     width: 33.2%;
-    font-size: 6em;
+    font-size: 4em;
     font-weight: 700;
     line-height: 1.1;
   }
@@ -262,20 +263,57 @@ body {
   .left-name-text {
     height: 350.5px;
     width: 40px;
-    font-size: 1.5em;
+    font-size: 1em;
   }
   .rectangle {
-    height: 3em;
-    width: 9.5em;
+    height: 2.5em;
+    width: 8em;
   }
   .start-project {
     font-size: 1.5em;
   }
   .path-1 {
-    height: 1.4em;
-    width: 2.5em;
+    height: 1.1em;
+    width: 2em;
     border-top: 2px solid #000;
     border-bottom: 4px solid #000;
+  }
+  .group {
+    top: 5.5%;
+  }
+  .menu-list {
+    left: 4.6em;
+    font-size: 4.5em;
+    margin-top: 1.2em;
+  }
+  .button-text-menu {
+    font-size: 1em;
+  }
+  .button-wrapper {
+    height: 2.5em;
+    width: 7.6em;
+  }
+  .header-text-about {
+    top: 8%;
+    font-size: 2.5em;
+    font-weight: 400;
+  }
+  .about-page {
+    font-size: 4em;
+    padding-top: 2em;
+  }
+  .contact-map > iframe {
+    margin: 0 auto;
+    display: block;
+    width: 660px;
+    height: 375px;
+  }
+  .contact-wrapper {
+    top: 3em;
+    height: auto;
+  }
+  .contact-title > h2 {
+    font-size: 2.5em;
   }
 }
 

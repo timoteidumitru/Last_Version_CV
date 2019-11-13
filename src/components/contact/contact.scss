@@ -1,6 +1,5 @@
 .contact-main {
   width: 100vw;
-  // height: 100vh;
   background-color: rgb(73, 73, 73);
   color: white;
   position: relative;
@@ -92,18 +91,10 @@
 }
 
 @media only screen and (min-width: 1441px) {
-  .contact-main {
-    min-height: 100vh;
-  }
   .contact-wrapper {
     display: block;
-    height: calc(100vh - 22.5vh);
-    padding-top: 10em;
     max-width: 1600px;
     margin: auto;
-  }
-  .comtact-title {
-    font-size: 2em;
   }
   .contact-from {
     display: flex;
@@ -118,14 +109,6 @@
     display: block;
     margin: 2em 5em;
     padding: 2em;
-  }
-  .contact-map > iframe {
-    margin: 0 auto;
-    display: block;
-  }
-  iframe {
-    width: 768px;
-    height: 455px;
   }
 }
 @media only screen and (max-width: 1440px) {

@@ -17,12 +17,12 @@ export default class Skills extends Component {
           level: "90%"
         },
         {
-          name: "ReactJS",
-          level: "85%"
-        },
-        {
           name: "JavaScript",
           level: "80%"
+        },
+        {
+          name: "ReactJS",
+          level: "85%"
         },
         {
           name: "NodeJS",
