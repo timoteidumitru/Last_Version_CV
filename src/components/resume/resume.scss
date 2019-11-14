@@ -5,11 +5,27 @@
   }
   .work-experience {
     margin-bottom: 5em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flow-root;
   }
   .content-main {
     min-height: 100vh;
   }
-
+  .work-one ul {
+    list-style: none;
+    padding: 0;
+  }
+  .work-one {
+    float: left;
+    display: block;
+    padding: 0.5em;
+    font-size: 1.2em;
+    width: 43%;
+    height: 570px;
+}
 }
 
 @media only screen and (max-width: 1441px) {
@@ -17,7 +33,10 @@
 }
 
 @media only screen and (max-width: 1281px) {
-  
+  .work-one ul {
+    list-style: none;
+    padding: 0;
+  }
 }
 
 

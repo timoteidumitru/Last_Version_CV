@@ -10,10 +10,11 @@ export default function Content() {
       possition: 'Web Developer',
       featureLearned: 
         {
-          1: 'Technologies used: React, HTML, CSS, JavaScript, SASS, EcmaScript 6/7/8, NodeJS, ExpressJS, MongoDB, Socket.io.',
-          2: 'Provide consultancy for clients regarding what technology to use, or basic SEO concepts to use for their websites.',
-          3: 'Provide consultancy to computer science students  and help them to complete their final project for college.',
-          4: 'Building small – medium websites for various companies all over the world.'
+          1: 'Building experiences which meet UX/UI expectations from quick prototypes to fully fledged products and being able to feedback improvements proactively where new technologies may have enabled better solutions.',
+          2: 'Code and deliver projects to the defined requirements (JavaScript / React / HTML / CSS).',
+          3: 'Responsible for problem solving and decision making to enhance the function of the webpage.',
+          4: 'Provide knowledge on evolving principles of design, promoting comprehensive research into new design ideas (HTML5/CSS3/JavaScript).',
+          5: 'Technologies used: React, HTML, CSS, JavaScript, SASS, EcmaScript 6/7/8, NodeJS, ExpressJS, MongoDB'
         }
     },
     {
@@ -72,8 +73,8 @@ export default function Content() {
             </span>
           </div>
           <div className="content-header">
-            <p>I'm a self-taught web developer who have one big regret and that is that I didn t start earlier this path of web development and programming in general.</p>
-            <p>The pleasure I gain from climbing something that seems unclimbable is way too big, thats why I study everyday, even more it becomes an addiction for me, I can't let pass 1-2 days without writing some code or at least watch some tutorials.</p>
+            <p>I'm a self-taught person who have one big regret, and that is that I didn't start earlier this path of web development and programming in general.</p>
+            <p>The pleasure I gain from "climbing" something that seems "unclimbable" is way too big, that’s why I study every day.</p>
           </div>
           <h2>My Experience</h2>
           <div className="work-experience">
