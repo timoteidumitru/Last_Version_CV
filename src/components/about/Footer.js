@@ -16,9 +16,9 @@ export default function Footer() {
             </div>
             <div className="footer-address">
               <span>London, UK</span>
-              <span>Grove Green Rd, Leyton</span>
-              <span>E11 4EG</span>
-              <span>07376-548076</span>
+              <span>Burnley Rd, Dollis Hill</span>
+              <span>NW10 1EE</span>
+              <span>07376-54 80 76</span>
               <span>dumitru.timy@gmail.com</span>
             </div>
             <div className="footer-social">

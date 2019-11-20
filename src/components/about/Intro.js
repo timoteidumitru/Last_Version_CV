@@ -17,10 +17,8 @@ const Intro = () => {
           <p className="left-name-text">Timotei Dumitru</p>
         </div>
         <div className="header-text-about">
-          The pleasure <br />
-          I gain from climbing  <br />
-          something that  <br />
-          seems unclimbable! <br />
+          If you think you’re too small to make a difference, <br />
+          try sleeping with a mosquito. (I hope you've smiled). <br />
         </div>
       </div>
       <div className="office-image"></div>

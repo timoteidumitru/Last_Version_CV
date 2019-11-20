@@ -74,8 +74,7 @@ export default function Content() {
             </span>
           </div>
           <div className="content-header">
-            <p>I'm a self-taught person who have one big regret, and that is that I didn't start earlier this path of web development and programming in general.</p>
-            <p>The pleasure I gain from "climbing" something that seems "unclimbable" is way too big, that’s why I study every day.</p>
+            <p>Front End Developer, with a passion for code and learning. Enjoys working alongside equally motivated people who share my drive to improve and build quality products</p>
           </div>
           <h2>My Experience</h2>
           <div className="work-experience">
