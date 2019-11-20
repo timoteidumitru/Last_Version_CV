@@ -6,22 +6,8 @@ export default function Content() {
     {
       id: 0.5,
       period: '2019 Mar – present',
-      company: 'Freelance',
-      possition: 'Web Developer',
-      featureLearned: 
-        {
-          1: 'Building experiences which meet UX/UI expectations from quick prototypes to fully fledged products and being able to feedback improvements proactively where new technologies may have enabled better solutions.',
-          2: 'Code and deliver projects to the defined requirements (JavaScript / React / HTML / CSS).',
-          3: 'Responsible for problem solving and decision making to enhance the function of the webpage.',
-          4: 'Provide knowledge on evolving principles of design, promoting comprehensive research into new design ideas (HTML5/CSS3/JavaScript).',
-          5: 'Technologies used: React, HTML, CSS, JavaScript, SASS, EcmaScript 6/7/8, NodeJS, ExpressJS, MongoDB'
-        }
-    },
-    {
-      id: 1,
-      period: '2017 Jun – 2019 Mar',
-      company: 'BitBee',
-      possition: 'Junior Front End Developer',
+      company: 'Tim',
+      possition: 'Self-Taught Front End',
       featureLearned: 
         {
           1: 'I\'ve built single and multi page websites using responsive web design or fluid typography with mobile first approach.',
@@ -30,6 +16,21 @@ export default function Content() {
           4: 'I\'ve oprimized images by compressing them for faster transfer load of the page.',
           5: 'I\'ve learned how to prioritize the visible content for a feaster load of the page.',
           6: 'I\'ve worked and deployed in development and production environments.'
+        }
+    },
+    {
+      id: 1,
+      period: '2017 Jun – 2019 Mar',
+      company: 'IPC Europe',
+      possition: '1st Line Support',
+      featureLearned: 
+        {
+          1: 'Proactive monitoring of IT systems',
+          2: 'Helpdesk and incident management. ',
+          3: 'Providing onsite and remote support.',
+          4: 'User, PC and server configuration.',
+          5: 'Router/Firewall configuration and troubleshooting.',
+          6: 'System checks including backup and antivirus monitoring and reporting.'
         }
     },
     {
