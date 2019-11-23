@@ -1,101 +1,82 @@
-import React from 'react'
+import React from "react";
 
 export default function Content() {
-
   const jobs = [
     {
       id: 0.5,
-      period: '2019 Mar – present',
-      company: 'Tim',
-      possition: 'Self-Taught Front End',
-      featureLearned: 
-        {
-          1: 'I\'ve built single and multi page websites using responsive web design or fluid typography with mobile first approach.',
-          2: 'I\'ve used custom icons to improve loading speeds and make it easier to maintain.',
-          3: 'I\'ve optimised the websites in loading speed minifying JavaScript, CSS and HTML, reducing the number of requests to the server.',
-          4: 'I\'ve oprimized images by compressing them for faster transfer load of the page.',
-          5: 'I\'ve learned how to prioritize the visible content for a feaster load of the page.',
-          6: 'I\'ve worked and deployed in development and production environments.'
-        }
+      name: "Phase Eight(replica)",
+      period: "2-3 Months Project",
+      featureLearned: {
+        1: "Front End development using React.",
+        2: "Application state management using React Hooks.",
+        3: "Page routing using React Router Dom.",
+        4: "Materialize CSS for styling the components.",
+        5: "Exposure to transitions and animations in React (Material UI).",
+        6: "Using  AOS(animate on scroll) as mentioned in the design."
+      }
     },
     {
       id: 1,
-      period: '2017 Jun – 2019 Mar',
-      company: 'IPC Europe',
-      possition: '1st Line Support',
-      featureLearned: 
-        {
-          1: 'Proactive monitoring of IT systems',
-          2: 'Helpdesk and incident management. ',
-          3: 'Providing onsite and remote support.',
-          4: 'User, PC and server configuration.',
-          5: 'Router/Firewall configuration and troubleshooting.',
-          6: 'System checks including backup and antivirus monitoring and reporting.'
-        }
+      name: "Online CV",
+      period: "2-3 Mounths Project",
+      featureLearned: {
+        1: "Front End development using React.",
+        2: "Page routing using React Router Dom.",
+        3: "For styling I’ve use SASS and media queries to make it full responsive.",
+        4: "Exposure to transitions and animations in React (CSS).",
+        5: "Design implemented in Invision Studio Lab.",
+        6: "Exposure to Google Maps API."
+      }
     },
     {
       id: 2,
-      period: '2015 Jan – 2016 Jun',
-      company: 'FiberLink',
-      possition: 'Network Technician',
-      featureLearned: 
-        {
-          1: 'Develop and maintain local networks in ways that optimize performance.',
-          2: 'Ensure security and privacy of networks and computer systems.',
-          3: 'Organize and schedule upgrades and maintenance without deterring others from completing their work.',
-          4: 'Provide technical support to clients through various channels of communication.',
-          5: 'Manage and support LAN and WAN Network devices.'
-        }
-    },
-    {
-      id: 3,
-      period: '2012 Oct – 2014 Dec',
-      company: 'Computers Warehouse',
-      possition: 'IT Technician',
-      featureLearned: 
-        {
-          1: 'Set up workstations with computers and necessary peripheral devices (routers, printers etc)',
-          2: 'Check computer hardware (HDD, mouse, keyboard etc.) to ensure functionality.',
-          3: 'Install and configure appropriate software and functions according to specifications.',
-          4: 'Provide orientation and guidance to users on how to operate new software and computer equipment.',
-          5: 'Perform troubleshooting to diagnose and resolve problems (repair or replace parts, debugging etc)',
-          6: 'Identify computer or network equipment shortages and place orders.'
-        }
+      name: "Get Weather App",
+      period: "2 Months Project",
+      featureLearned: {
+        1: "Application developed in React.",
+        2: "Fetch data from openweathermap API. ",
+        3: "Gain experience with data visualization from API.",
+        4: "Building responsive with mobile first approach pattern.",
+        5: "Exposure to dynamic programming.",
+        6: "Exposure to application state management."
+      }
     }
-  ]
+  ];
 
   return (
     <div>
       <div className="content-main">
         <div className="content-wrapper">
           <div className="about-page">
-            <span className="about-main-name">
-              Resume
-            </span>
+            <span className="about-main-name">Resume</span>
           </div>
           <div className="content-header">
-            <p>Front End Developer, with a passion for code and learning. Enjoys working alongside equally motivated people who share my drive to improve and build quality products</p>
+            <p>
+              My problem-solving ability is applied throughout all aspects of my
+              life, and I am continuously seeking to gain knowledge. When not
+              gaining this knowledge in a coding environment, I am an advocate
+              for self-improvement and am always striving to better my physical
+              and mental health.
+            </p>
           </div>
-          <h2>My Experience</h2>
+          <h2>Personal projects</h2>
           <div className="work-experience">
-            {
-              jobs.map(job => 
-                <div key={job.id} className="work-one">
-                  <h4><span>{job.period}</span> &nbsp;&nbsp; {job.company}</h4>
-                  <h5>{job.possition}</h5>
-                  <ul>
-                    { Object.values(job.featureLearned).map((feature, i) => 
-                      <li key={i}>
-                        - { feature }
-                      </li>
-                    )}
-                  </ul>
-                </div>
-              )
-            }
+            {jobs.map(job => (
+              <div key={job.id} className="work-one">
+                <h4>
+                  {job.name} &nbsp;&nbsp; <span>{job.period}</span>
+                </h4>
+                <ul>
+                  {Object.values(job.featureLearned).map((feature, i) => (
+                    <li key={i}>- {feature}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
+          <div className="education-main"></div>
         </div>
       </div>
     </div>
-  )
+  );
 }
