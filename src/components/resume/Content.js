@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Content() {
-  const jobs = [
+  const projects = [
     {
       id: 0.5,
       name: "Phase Eight(replica)",
@@ -43,6 +43,21 @@ export default function Content() {
     }
   ];
 
+  const education = [
+    {
+      id: 1,
+      where: '"FREECODECAMP" SELF-TAUGHT - LONDON, UK',
+      field: "Field: Web Development",
+      specialization: "Specialization:  Front End development"
+    },
+    {
+      id: 2,
+      where: '"VALAHIA" UNIVERSITY - TARGOVISTE, RO',
+      field: "Field: Electric Engineering",
+      specialization: "Specialization: Energetics"
+    }
+  ];
+
   return (
     <div>
       <div className="content-main">
@@ -61,7 +76,7 @@ export default function Content() {
           </div>
           <h2>Personal projects</h2>
           <div className="work-experience">
-            {jobs.map(job => (
+            {projects.map(job => (
               <div key={job.id} className="work-one">
                 <h4>
                   {job.name} &nbsp;&nbsp; <span>{job.period}</span>
@@ -74,7 +89,19 @@ export default function Content() {
               </div>
             ))}
           </div>
-          <div className="education-main"></div>
+          <div className="education-main">
+            <h2>Education</h2>
+            {education.map(e => (
+              <div key={e.id}>
+                <h4>{e.where}</h4>
+                <p>
+                  &nbsp;&nbsp;&nbsp;&nbsp; +&nbsp;{e.field} <br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <span>&nbsp;&nbsp;&nbsp; - {e.specialization}</span>
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
