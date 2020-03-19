@@ -1,7 +1,6 @@
-import React from 'react'
-import './about.scss'
-import TopNav from './TopNav'
-
+import React from "react";
+import "./about.scss";
+import TopNav from "./TopNav";
 
 const Intro = () => {
   return (
@@ -9,21 +8,20 @@ const Intro = () => {
       <div className="about-intro">
         <TopNav />
         <div className="about-page">
-          <span className="about-main-name">
-            About
-          </span>
+          <span className="about-main-name">About</span>
         </div>
         <div className="left-name">
           <p className="left-name-text">Timotei Dumitru</p>
         </div>
         <div className="header-text-about">
-          If you think you’re too small to make a difference, <br />
-          try sleeping with a mosquito. (I hope you've smiled). <br />
+          My problem-solving ability is applied throughout all aspects of my
+          life, <br />
+          and I am continuously seeking to gain knowledge. <br />
         </div>
       </div>
       <div className="office-image"></div>
     </div>
-  )
-}
+  );
+};
 
-export default Intro
+export default Intro;
