@@ -21,10 +21,42 @@ export default function Footer() {
               <span>dumitru.timy@gmail.com</span>
             </div>
             <div className="footer-social">
-              <span>linkedIn</span>
-              <span>github</span>
-              <span>facebook</span>
-              <span>google+</span>
+              <span>
+                <a
+                  href="https://www.linkedin.com/in/timotei-dumitru-1494ab160/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  linkedIn
+                </a>
+              </span>
+              <span>
+                <a
+                  href="https://github.com/ShokadinuEU"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  github
+                </a>
+              </span>
+              <span>
+                <a
+                  href="https://www.facebook.com/dumitru.timy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  facebook
+                </a>
+              </span>
+              <span>
+                <a
+                  href="https://shokadinueu.github.io/recipe_finder-app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  portofolio
+                </a>
+              </span>
             </div>
           </div>
           <div className="footer-designer">
