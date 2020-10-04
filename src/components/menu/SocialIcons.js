@@ -25,7 +25,7 @@ function SocialIcons() {
         </li>
         <li className="social-icon">
           <a
-            href="https://shokadinueu.github.io/phase-eight/"
+            href="https://shokadinueu.github.io/recipe_finder-app/"
             target="blank"
             rel="noopener noreferrer"
           >

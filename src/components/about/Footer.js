@@ -26,7 +26,7 @@ export default function Footer() {
             <div className="footer-address">
               <span>London, UK</span>
               <span>E4 ---</span>
-              <span>07376-548077</span>
+              <span>07376-******</span>
               <span>dumitru.timy@gmail.com</span>
             </div>
             <div className="footer-social">
