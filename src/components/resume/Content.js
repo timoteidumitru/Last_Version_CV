@@ -105,9 +105,9 @@ export default function Content() {
           <div className="education-main">
             <h2>Education</h2>
             {education.map((e) => (
-              <div key={e.id}>
-                <h4>{e.where}</h4>
-                <p>
+              <div key={e.id} className="education-specialization">
+                <h4 className="education-institute">{e.where}</h4>
+                <p className="education-specialization">
                   &nbsp;&nbsp;&nbsp;&nbsp; +&nbsp;{e.field} <br />
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <span>&nbsp;&nbsp;&nbsp; - {e.specialization}</span>
