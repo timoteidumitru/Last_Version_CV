@@ -3,9 +3,22 @@ import React from "react";
 export default function Content() {
   const projects = [
     {
-      id: 0.5,
+      id: 1,
+      name: "Recipe Finder App",
+      period: "",
+      featureLearned: {
+        1: "Using JavaScript(ES5 / ES6) for MVC design pattern.",
+        2: "For automation was made use of webpack",
+        3: "Numbers formatting have been made using fractional library",
+        4: "For browser compatibility babel(transcompiler) was added to the project",
+        5: "Some exposure to transitions and animations.",
+        6: "I've make use of axios to make call to external API",
+      },
+    },
+    {
+      id: 2,
       name: "Phase Eight(replica)",
-      period: "2-3 Months Project",
+      period: "",
       featureLearned: {
         1: "Front End development using React.",
         2: "Application state management using React Hooks.",
@@ -16,9 +29,9 @@ export default function Content() {
       },
     },
     {
-      id: 1,
+      id: 3,
       name: "Online CV",
-      period: "2-3 Months Project",
+      period: "",
       featureLearned: {
         1: "Front End development using React.",
         2: "Page routing using React Router Dom.",
@@ -29,9 +42,9 @@ export default function Content() {
       },
     },
     {
-      id: 2,
+      id: 4,
       name: "Get Weather App",
-      period: "2 Months Project",
+      period: "",
       featureLearned: {
         1: "Application developed in React.",
         2: "Fetch data from openweathermap API. ",
