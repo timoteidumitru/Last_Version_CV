@@ -21,6 +21,9 @@
 
 // Smartphones
 @include mediaSm {
+  h3 {
+    font-size: 1.3em;
+  }
   .lg-heading {
     font-size: 4em !important;
   }

@@ -1,5 +1,4 @@
-@import './config.scss';
-
+@import "./config.scss";
 
 body {
   @include background;
@@ -7,7 +6,7 @@ body {
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
 
@@ -75,7 +74,6 @@ main {
   }
 }
 
-
 // My Projects Page
 .projects {
   display: grid;
@@ -138,7 +136,7 @@ main {
   margin-top: 2em;
 }
 
-@import './mobile.scss';
+@import "./mobile.scss";
 
 @media only screen and (min-width: 1441px) {
   .content-work {
@@ -150,18 +148,16 @@ main {
   }
 }
 @media only screen and (max-width: 1440px) {
-  
 }
 @media only screen and (max-width: 1280px) {
-
 }
 @media only screen and (max-width: 1024px) {
-  
 }
 @media only screen and (max-width: 768px) {
-
 }
 
 @media only screen and (max-width: 600px) {
-
+  h3 {
+    font-size: 1.3em;
+  }
 }
