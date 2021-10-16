@@ -7,7 +7,7 @@ function SocialIcons() {
       <ul className="social-icons">
         <li className="social-icon">
           <a
-            href="https://www.linkedin.com/in/timotei-dumitru-1494ab160/"
+            href="https://www.linkedin.com/in/timoteidumitru/"
             target="blank"
             rel="noopener noreferrer"
           >
@@ -16,7 +16,7 @@ function SocialIcons() {
         </li>
         <li className="social-icon">
           <a
-            href="https://github.com/ShokadinuEU"
+            href="https://github.com/timoteidumitru"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -25,7 +25,7 @@ function SocialIcons() {
         </li>
         <li className="social-icon">
           <a
-            href="https://shokadinueu.github.io/recipe_finder-app/"
+            href="https://timoteidumitru.github.io/recipe_finder-app/"
             target="blank"
             rel="noopener noreferrer"
           >
