@@ -7,6 +7,7 @@
   "dependencies": {
     "gh-pages": "^2.0.1",
     "google-maps-react": "^2.0.2",
+    "node-sass": "^4.14.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-pose": "^4.0.8",
@@ -30,9 +31,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "node-sass": "^6.0.0",
-    "sass-loader": "^11.1.1"
-  }
+  ]
 }
