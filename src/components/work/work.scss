@@ -83,6 +83,10 @@ main {
   margin: 0 auto;
 }
 
+.projects > .item {
+  display: grid;
+}
+
 .project-img {
   height: 250px;
   width: 98%;
