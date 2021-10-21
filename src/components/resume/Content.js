@@ -80,11 +80,11 @@ export default function Content() {
           </div>
           <div className="content-header">
             <p>
-              My problem-solving ability is applied throughout all aspects of my
-              life, and I am continuously seeking to gain knowledge. When not
-              gaining this knowledge in a coding environment, I am an advocate
-              for self-improvement and I'am always striving to better my
-              physical and mental health.
+              I’m a FrontEnd Developer specialized in JavaScript tech stack,
+              having experience with TypeScript, ReactJS. Being an advocate of
+              continuous self improvement I look for a company that uses Agile
+              methodologies where I can perform my skills as a FrontEnd Web
+              Developer.
             </p>
           </div>
           <h2>Personal projects</h2>
