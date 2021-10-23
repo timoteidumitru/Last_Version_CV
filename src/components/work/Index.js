@@ -69,9 +69,11 @@ const Index = () => {
         <div className="work-header">
           <h1 className="lg-heading">
             My
-            <span className="text-secondary">Work</span>
+            <span className="text-secondary"> Work </span>
           </h1>
-          <h2 className="sm-heading">Check out some of my projects!</h2>
+          <h2 className="sm-heading">
+            Check out some of my personal projects!
+          </h2>
         </div>
         <div className="projects">
           {projects.map((project, i) => (
@@ -90,7 +92,7 @@ const Index = () => {
                   rel="noopener noreferrer"
                   className="btn-light"
                 >
-                  <i className="fas fa-eye">{project.name} - View</i>
+                  <i className="fas fa-eye">{project.name} - View </i>
                 </a>
               </button>
               <a
