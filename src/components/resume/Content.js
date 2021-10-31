@@ -81,10 +81,10 @@ export default function Content() {
           <div className="content-header">
             <p>
               I’m a FrontEnd Developer specialized in JavaScript tech stack,
-              having experience with TypeScript, ReactJS. Being an advocate of
-              continuous self improvement I look for a company that uses Agile
-              methodologies where I can perform my skills as a FrontEnd Web
-              Developer.
+              having experience with ReactJS and TypeScript. Being an advocate
+              of continuous self improvement I look for a company that uses
+              Agile methodologies where I can perform my skills as a FrontEnd
+              Web Developer.
             </p>
           </div>
           <h2>Personal projects</h2>
