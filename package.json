@@ -6,6 +6,7 @@
   "homepage": "https://timoteidumitru.github.io/Last_Version_CV",
   "dependencies": {
     "emailjs-com": "^3.2.0",
+    "formik": "^2.2.9",
     "gh-pages": "^2.0.1",
     "google-maps-react": "^2.0.2",
     "node-sass": "^4.14.1",
@@ -15,7 +16,9 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1",
     "react-sweet-progress": "^1.1.2",
-    "react-transition-group": "^4.2.1"
+    "react-transition-group": "^4.2.1",
+    "validator": "^13.7.0",
+    "yup": "^0.32.11"
   },
   "scripts": {
     "start": "react-scripts start",
