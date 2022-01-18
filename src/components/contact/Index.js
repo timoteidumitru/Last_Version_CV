@@ -8,7 +8,6 @@ import "./contact.scss";
 
 const Index = () => {
   const form = useRef();
-  // const [confirmMsg, setConfirmMsg] = useState("");
 
   const SignupSchema = Yup.object().shape({
     user_name: Yup.string()
@@ -33,19 +32,14 @@ const Index = () => {
       .then(
         (result) => {
           console.log(result.text);
-          // if (result.text === "OK") {
-          //   setConfirmMsg("Message was sent successfully!");
-          // } else {
-          //   setConfirmMsg(
-          //     "Message was not sent successfully, please try again."
-          //   );
-          // }
         },
         (error) => {
           console.log(error.text);
         }
       );
-    e.target.reset();
+    e.target.user_name.value = "";
+    e.target.user_email.value = "";
+    e.target.message.value = "";
   };
 
   return (
@@ -65,17 +59,6 @@ const Index = () => {
           >
             {({ isSubmitting, errors, touched }) => (
               <form ref={form} onSubmit={sendEmail} className="contact-message">
-                {/* {confirmMsg && (
-                  <p
-                    className={
-                      confirmMsg.includes("successfuly")
-                        ? "unsuccess-msg"
-                        : "success-msg"
-                    }
-                  >
-                    {confirmMsg}
-                  </p>
-                )} */}
                 {errors.user_name && touched.user_name ? (
                   <div className="unsuccess-msg">{errors.user_name}</div>
                 ) : null}
@@ -84,21 +67,6 @@ const Index = () => {
                   className="contact-form-name"
                   placeholder="Enter a name.."
                 />
-                {/* <input
-                  type="text"
-                  className="contact-form-name"
-                  placeholder="Enter a name.."
-                  name="user_name"
-                /> */}
-                {/* <ErrorMessage
-                  name="user_email"
-                  component="div"
-                  className={
-                    confirmMsg.includes("successfuly")
-                      ? "unsuccess-msg"
-                      : "success-msg"
-                  }
-                /> */}
                 {errors.user_email && touched.user_email ? (
                   <div className="unsuccess-msg">{errors.user_email}</div>
                 ) : null}
@@ -108,12 +76,6 @@ const Index = () => {
                   className="contact-form-email"
                   type="email"
                 />
-                {/* <input
-                  type="text"
-                  className="contact-form-email"
-                  placeholder="Your email"
-                  name="user_email"
-                /> */}
                 <textarea
                   name="message"
                   className="contact-form-textarea"
@@ -121,7 +83,18 @@ const Index = () => {
                   rows="6"
                   cols="35"
                 ></textarea>
-                <button className="contact-form-button">Submit</button>
+                <button
+                  type="submit"
+                  className="contact-form-button"
+                  disabled={
+                    (errors.user_email && touched.user_email) ||
+                    (errors.user_name && touched.user_name)
+                      ? true
+                      : false
+                  }
+                >
+                  Submit
+                </button>
               </form>
             )}
           </Formik>
