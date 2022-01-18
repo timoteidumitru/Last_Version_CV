@@ -1,9 +1,30 @@
-import React from 'react'
+import React from "react";
+import emailjs from "emailjs-com";
 import TopNav from "../about/TopNav";
 import Footer from "../about/Footer";
-import './contact.scss'
+import "./contact.scss";
 
 const Index = () => {
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "gmail",
+        "service_txrxyef",
+        e.current,
+        "user_uwMmcZbrnRIFC5HlYWFLp"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div className="contact-main">
       <div className="contact-wrapper">
@@ -16,35 +37,42 @@ const Index = () => {
         </div>
         <div className="contact-from">
           <div className="contact-message">
-            <input 
-              type="text" 
+            <input
+              type="text"
               className="contact-form-name"
               placeholder="Name"
-              />
-            <input 
-              type="text" 
+            />
+            <input
+              type="text"
               className="contact-form-email"
               placeholder="Your email"
-              />
-            <textarea 
+            />
+            <textarea
               className="contact-form-textarea"
               placeholder="Write your message here..."
               rows="6"
               cols="35"
-              >
-            </textarea>
-            <button className="contact-form-button">
-              Submit
-            </button>
+            ></textarea>
+            <button className="contact-form-button">Submit</button>
           </div>
           <div className="contact-map">
-            <iframe title="my location" width='500px' height='350px' id='mapcanvas' src='https://maps.google.com/maps?q=London,%20United%20Kingdom&Roadmap&z=10&ie=UTF8&iwloc=&output=embed' frameBorder='0' scrolling='no' marginHeight='0' marginWidth='0' />
-          </div> 
+            <iframe
+              title="my location"
+              width="500px"
+              height="350px"
+              id="mapcanvas"
+              src="https://maps.google.com/maps?q=London,%20United%20Kingdom&Roadmap&z=10&ie=UTF8&iwloc=&output=embed"
+              frameBorder="0"
+              scrolling="no"
+              marginHeight="0"
+              marginWidth="0"
+            />
+          </div>
         </div>
       </div>
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Index
+export default Index;
