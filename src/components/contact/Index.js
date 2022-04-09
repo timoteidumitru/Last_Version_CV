@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { Formik, Field } from "formik";
+import { useFormik } from "formik";
 import * as Yup from "yup";
 import emailjs from "emailjs-com";
 import TopNav from "../about/TopNav";
@@ -8,42 +8,49 @@ import "./contact.scss";
 
 const Index = () => {
   const form = useRef();
+  const [buttonDisable, setButtonDisable] = useState(false);
 
-  const [disableButton, setDisableButton] = useState(false);
-
-  const SignupSchema = Yup.object().shape({
-    user_name: Yup.string()
-      .min(3, "Too Short name!")
-      .max(50, "Too Long name!")
-      .required("Name Required"),
-    user_email: Yup.string()
-      .email("Invalid email adress")
-      .required("Email Required"),
+  const formik = useFormik({
+    initialValues: {
+      userName: "",
+      userEmail: "",
+      userMessage: "",
+    },
+    validationSchema: Yup.object({
+      userName: Yup.string()
+        .min(3, "Name too short!")
+        .max(50, "Name too long!")
+        .required("Name Required!"),
+      userEmail: Yup.string()
+        .email("Invalid email adress")
+        .required("Email Required!"),
+      userMessage: Yup.string()
+        .min(10, "Message too short!")
+        .max(500, "Message too long!")
+        .required("Message Required.."),
+    }),
+    onSubmit: () => {
+      emailjs
+        .sendForm(
+          "service_ihmdmlv",
+          "template_9vlhenn",
+          form.current,
+          "user_uwMmcZbrnRIFC5HlYWFLp"
+        )
+        .then(
+          (result) => {
+            console.log("Message send status: " + result.text);
+          },
+          (error) => {
+            console.log("Message send status: " + error.text);
+          }
+        );
+      setButtonDisable(true);
+      form.current.userName.value = "";
+      form.current.userEmail.value = "";
+      form.current.userMessage.value = "";
+    },
   });
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_ihmdmlv",
-        "template_9vlhenn",
-        e.target,
-        "user_uwMmcZbrnRIFC5HlYWFLp"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.user_name.value = "";
-    e.target.user_email.value = "";
-    e.target.message.value = "";
-    setDisableButton(true);
-  };
 
   return (
     <div className="contact-main">
@@ -56,52 +63,68 @@ const Index = () => {
           </p>
         </div>
         <div className="contact-from">
-          <Formik
-            initialValues={{ user_name: "", user_email: "" }}
-            validationSchema={SignupSchema}
+          <form
+            ref={form}
+            onSubmit={formik.handleSubmit}
+            className="contact-message"
           >
-            {({ isSubmitting, errors, touched }) => (
-              <form ref={form} onSubmit={sendEmail} className="contact-message">
-                {errors.user_name && touched.user_name ? (
-                  <div className="unsuccess-msg">{errors.user_name}</div>
-                ) : null}
-                <Field
-                  name="user_name"
-                  className="contact-form-name"
-                  placeholder="Enter a name.."
-                />
-                {errors.user_email && touched.user_email ? (
-                  <div className="unsuccess-msg">{errors.user_email}</div>
-                ) : null}
-                <Field
-                  name="user_email"
-                  placeholder="Enter email address.."
-                  className="contact-form-email"
-                  type="email"
-                />
-                <textarea
-                  name="message"
-                  className="contact-form-textarea"
-                  placeholder="Write your message here..."
-                  rows="6"
-                  cols="35"
-                ></textarea>
-                <button
-                  type="submit"
-                  className="contact-form-button"
-                  disabled={
-                    (errors.user_email && touched.user_email) ||
-                    (errors.user_name && touched.user_name) ||
-                    disableButton
-                      ? true
-                      : false
-                  }
-                >
-                  Submit
-                </button>
-              </form>
-            )}
-          </Formik>
+            {formik.errors.userName && formik.touched.userName ? (
+              <div className="unsuccess-msg">{formik.errors.userName}</div>
+            ) : null}
+            <input
+              name="userName"
+              id="userName"
+              type="text"
+              autoComplete="off"
+              className="contact-form-name"
+              placeholder="Enter a name.."
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              value={formik.values.userName}
+            />
+            {formik.errors.userEmail && formik.touched.userEmail ? (
+              <div className="unsuccess-msg">{formik.errors.userEmail}</div>
+            ) : null}
+            <input
+              name="userEmail"
+              id="userEmail"
+              type="email"
+              autoComplete="off"
+              placeholder="Enter email address.."
+              className="contact-form-email"
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              value={formik.values.userEmail}
+            />
+            {formik.errors.userMessage && formik.touched.userMessage ? (
+              <div className="unsuccess-msg">{formik.errors.userMessage}</div>
+            ) : null}
+            <input
+              name="userMessage"
+              id="userMessage"
+              type="text"
+              autoComplete="off"
+              className="contact-form-textarea"
+              placeholder="Write your message here..."
+              rows="6"
+              cols="35"
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              value={formik.values.userMessage}
+            />
+            <button
+              type="submit"
+              disabled={
+                buttonDisable ||
+                (formik.errors.userName &&
+                  formik.errors.userEmail &&
+                  formik.errors.userMessage)
+              }
+              className="contact-form-button"
+            >
+              Submit
+            </button>
+          </form>
           <div className="contact-map">
             <iframe
               title="my location"
