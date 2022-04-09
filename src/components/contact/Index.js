@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Formik, Field } from "formik";
 import * as Yup from "yup";
 import emailjs from "emailjs-com";
@@ -8,6 +8,8 @@ import "./contact.scss";
 
 const Index = () => {
   const form = useRef();
+
+  const [disableButton, setDisableButton] = useState(false);
 
   const SignupSchema = Yup.object().shape({
     user_name: Yup.string()
@@ -40,6 +42,7 @@ const Index = () => {
     e.target.user_name.value = "";
     e.target.user_email.value = "";
     e.target.message.value = "";
+    setDisableButton(true);
   };
 
   return (
@@ -88,7 +91,8 @@ const Index = () => {
                   className="contact-form-button"
                   disabled={
                     (errors.user_email && touched.user_email) ||
-                    (errors.user_name && touched.user_name)
+                    (errors.user_name && touched.user_name) ||
+                    disableButton
                       ? true
                       : false
                   }
