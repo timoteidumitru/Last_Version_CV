@@ -85,6 +85,10 @@ main {
 
 .projects > .item {
   display: grid;
+  &:hover {
+    box-shadow: 5px 7px #292c08;
+    cursor: pointer;
+  }
 }
 
 .project-img {

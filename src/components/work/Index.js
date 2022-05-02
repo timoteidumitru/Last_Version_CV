@@ -7,10 +7,22 @@ import "../../App.scss";
 const Index = () => {
   const projects = [
     {
+      name: "Country Info App",
+      img: "images/my-work/country-info-app.jpg",
+      sampleLink: "https://timoteidumitru.github.io/countries_info_app/",
+      gitLink: "https://github.com/timoteidumitru/countries_info_app",
+    },
+    {
       name: "Recipe Finder App",
       img: "images/my-work/recipe-finder-app.jpg",
       sampleLink: "https://timoteidumitru.github.io/recipe_finder-app/#46956",
       gitLink: "https://github.com/timoteidumitru/recipe_finder-app",
+    },
+    {
+      name: "Products sorting JavaScript",
+      img: "images/my-work/shopping-cart-typescript.jpg",
+      sampleLink: "https://github.com/timoteidumitru/shopping_cart_typescript",
+      gitLink: "https://github.com/timoteidumitru/shopping_cart_typescript",
     },
     {
       name: "Phase 8",
