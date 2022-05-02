@@ -25,12 +25,6 @@ const Index = () => {
       gitLink: "https://github.com/timoteidumitru/get-weather-app",
     },
     {
-      name: "Fashion Today",
-      img: "images/my-work/fashion-today.jpg",
-      sampleLink: "https://timoteidumitru.github.io/fashion-today/",
-      gitLink: "https://github.com/timoteidumitru/fashion-today",
-    },
-    {
       name: "Development Website",
       img: "images/my-work/development-website.jpg",
       sampleLink: "https://timoteidumitru.github.io/development-website/",
@@ -47,18 +41,6 @@ const Index = () => {
       img: "images/my-work/react-apps.jpg",
       sampleLink: "https://timoteidumitru.github.io/react-cool-apps/",
       gitLink: "https://github.com/timoteidumitru/react-cool-apps",
-    },
-    {
-      name: "Recipe Finder App",
-      img: "images/my-work/first-cv-online.jpg",
-      sampleLink: "https://timoteidumitru.github.io/my-cv-tim/",
-      gitLink: "https://github.com/timoteidumitru/my-cv-tim/",
-    },
-    {
-      name: "Lyric Finder",
-      img: "images/my-work/lyric-finder.jpg",
-      sampleLink: "https://timoteidumitru.github.io/Lyric_Finder_App/",
-      gitLink: "https://github.com/timoteidumitru/Lyric_Finder_App",
     },
   ];
 
