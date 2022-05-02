@@ -32,7 +32,7 @@ export default function Footer() {
             <div className="footer-social">
               <span>
                 <a
-                  href="https://www.linkedin.com/in/timotei-dumitru-1494ab160/"
+                  href="https://www.linkedin.com/in/timoteidumitru/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -41,7 +41,7 @@ export default function Footer() {
               </span>
               <span>
                 <a
-                  href="https://github.com/ShokadinuEU"
+                  href="https://github.com/timoteidumitru"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -59,7 +59,7 @@ export default function Footer() {
               </span>
               <span>
                 <a
-                  href="https://shokadinueu.github.io/recipe_finder-app/"
+                  href="https://timoteidumitru.github.io/recipe_finder-app/#46956"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -54,6 +54,13 @@ const Index = () => {
       sampleLink: "https://timoteidumitru.github.io/react-cool-apps/",
       gitLink: "https://github.com/timoteidumitru/react-cool-apps",
     },
+    {
+      name: "Secure Register/Login System",
+      img: "images/my-work/secure-login-main.jpg",
+      sampleLink:
+        "https://github.com/timoteidumitru/secure_register_login_system",
+      gitLink: "https://github.com/timoteidumitru/secure_register_login_system",
+    },
   ];
 
   return (
