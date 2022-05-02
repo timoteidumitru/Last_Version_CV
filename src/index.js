@@ -6,7 +6,7 @@ import App from "./App";
 
 // <Router git basename="Last_Version_CV">
 ReactDOM.render(
-  <BrowserRouter git basename="Last_Version_CV">
+  <BrowserRouter>
     <App />
   </BrowserRouter>,
   document.getElementById("root")

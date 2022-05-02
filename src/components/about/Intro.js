@@ -14,10 +14,10 @@ const Intro = () => {
           <p className="left-name-text">Timotei Dumitru</p>
         </div>
         <div className="header-text-about">
-          I’m a FrontEnd Developer specialized in JavaScript tech stack, Being
-          an advocate of continuous self improvement I look for a company that
+          I’m a FrontEnd Developer specialized in JavaScript stack, being an
+          advocate of continuous self improvement I’m looking for a company that
           uses Agile methodologies where I can perform my skills as a FrontEnd
-          Web Developer.
+          Developer.
         </div>
       </div>
       <div className="office-image"></div>

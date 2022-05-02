@@ -7,12 +7,11 @@ export default function Content() {
       name: "Recipe Finder App",
       period: "",
       featureLearned: {
-        1: "Using JavaScript(ES5 / ES6) for MVC design pattern.",
-        2: "For automation was made use of webpack",
+        1: "Using JavaScript(ES5/ES6)",
+        2: "For tooling linting, webpack, babel",
         3: "Numbers formatting have been made using fractional library",
-        4: "For browser compatibility babel(transcompiler) was added to the project",
-        5: "Some exposure to transitions and animations.",
-        6: "I've make use of axios to make call to external API",
+        4: "Some exposure to transitions and animations.",
+        5: "I've make use of axios to make API calls",
       },
     },
     {
@@ -30,15 +29,15 @@ export default function Content() {
     },
     {
       id: 3,
-      name: "Online CV",
+      name: "Secure Register/Login System",
       period: "",
       featureLearned: {
-        1: "Front End development using React.",
-        2: "Page routing using React Router Dom.",
-        3: "For styling I’ve use SASS and media queries to make it full responsive.",
-        4: "Exposure to transitions and animations in React (CSS).",
-        5: "Design implemented in Invision Studio Lab.",
-        6: "Exposure to Google Maps API.",
+        1: "Front End development using React with following features: ",
+        2: "Hooks, Styled Components, Font Awesome, Axios and React Router",
+        3: "Back End developed in NodeJS and ExpressJS with following features: ",
+        4: "JWT, uuid, bcrypt, cookie parser, cors, date fns, dotend, concurently",
+        5: "Databese used: MongoDB(cloud) with mongoose for quering data",
+        6: "Other features: redirect upon register/login, validation checking",
       },
     },
     {
@@ -47,11 +46,11 @@ export default function Content() {
       period: "",
       featureLearned: {
         1: "Application developed in React.",
-        2: "Fetch data from openweathermap API. ",
+        2: "Fetch data from openweathermap API using Axios. ",
         3: "Gain experience with data visualization from API.",
         4: "Building responsive with mobile first approach pattern.",
         5: "Exposure to dynamic programming.",
-        6: "Exposure to application state management.",
+        6: "Exposure to application state management aka Hooks/Context.",
       },
     },
   ];
@@ -59,9 +58,9 @@ export default function Content() {
   const education = [
     {
       id: 1,
-      where: '"FREECODECAMP" SELF-TAUGHT - LONDON, UK',
-      field: "Field: Web Development",
-      specialization: "Specialization:  Front End development",
+      where: '"Software Mastery CWD - LONDON, UK',
+      field: "Field: Full Development Lifecycle",
+      specialization: "From Design to Deployment",
     },
     {
       id: 2,
@@ -81,10 +80,10 @@ export default function Content() {
           <div className="content-header">
             <p>
               I’m a FrontEnd Developer specialized in JavaScript tech stack,
-              having experience with ReactJS and TypeScript. Being an advocate
-              of continuous self improvement I look for a company that uses
-              Agile methodologies where I can perform my skills as a FrontEnd
-              Web Developer.
+              having experience with React and TypeScript. Being an advocate of
+              continuous self improvement I look for a company that uses Agile
+              methodologies where I can perform my skills as a FrontEnd
+              Developer.
             </p>
           </div>
           <h2>Personal projects</h2>
