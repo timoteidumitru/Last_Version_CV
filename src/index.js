@@ -4,7 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 
-// <Router git basename="Last_Version_CV">
+// git basename="Last_Version_CV" - for deployment on github
 ReactDOM.render(
   <BrowserRouter git basename="Last_Version_CV">
     <App />

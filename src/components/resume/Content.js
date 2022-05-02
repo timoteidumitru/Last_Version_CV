@@ -11,7 +11,7 @@ export default function Content() {
         2: "For tooling linting, webpack, babel",
         3: "Numbers formatting have been made using fractional library",
         4: "Some exposure to transitions and animations.",
-        5: "I've make use of axios to make API calls",
+        5: "Axios was used to make API calls",
       },
     },
     {
@@ -79,10 +79,10 @@ export default function Content() {
           </div>
           <div className="content-header">
             <p>
-              I’m a FrontEnd Developer specialized in JavaScript tech stack,
-              having experience with React and TypeScript. Being an advocate of
-              continuous self improvement I look for a company that uses Agile
-              methodologies where I can perform my skills as a FrontEnd
+              I’m a FrontEnd Developer specialized in JavaScript stack, having
+              experience with React and TypeScript. Being an advocate of
+              continuous self improvement I'm lookking for a company that uses
+              Agile methodologies where I can perform my skills as a FrontEnd
               Developer.
             </p>
           </div>

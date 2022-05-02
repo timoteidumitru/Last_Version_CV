@@ -68,6 +68,21 @@ const Index = () => {
             onSubmit={formik.handleSubmit}
             className="contact-message"
           >
+            {buttonDisable ? (
+              <p
+                style={{
+                  textAlign: "center",
+                  color: "#16d216",
+                  fontSize: "1.5em",
+                  fontWeight: "600",
+                  marginTop: "0",
+                }}
+              >
+                Message sent successfully!
+              </p>
+            ) : (
+              ""
+            )}
             {formik.errors.userName && formik.touched.userName ? (
               <div className="unsuccess-msg">{formik.errors.userName}</div>
             ) : null}
@@ -99,7 +114,7 @@ const Index = () => {
             {formik.errors.userMessage && formik.touched.userMessage ? (
               <div className="unsuccess-msg">{formik.errors.userMessage}</div>
             ) : null}
-            <input
+            <textarea
               name="userMessage"
               id="userMessage"
               type="text"

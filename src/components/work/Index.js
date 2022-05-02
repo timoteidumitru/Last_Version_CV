@@ -19,12 +19,6 @@ const Index = () => {
       gitLink: "https://github.com/timoteidumitru/recipe_finder-app",
     },
     {
-      name: "Products sorting JavaScript",
-      img: "images/my-work/shopping-cart-typescript.jpg",
-      sampleLink: "https://github.com/timoteidumitru/shopping_cart_typescript",
-      gitLink: "https://github.com/timoteidumitru/shopping_cart_typescript",
-    },
-    {
       name: "Phase 8",
       img: "images/my-work/phase-8.jpg",
       sampleLink: "https://timoteidumitru.github.io/phase-eight/",
@@ -35,6 +29,12 @@ const Index = () => {
       img: "images/my-work/weather-app.jpg",
       sampleLink: "https://timoteidumitru.github.io/get-weather-app/",
       gitLink: "https://github.com/timoteidumitru/get-weather-app",
+    },
+    {
+      name: "Products sorting JavaScript",
+      img: "images/my-work/shopping-cart-typescript.jpg",
+      sampleLink: "https://github.com/timoteidumitru/shopping_cart_typescript",
+      gitLink: "https://github.com/timoteidumitru/shopping_cart_typescript",
     },
     {
       name: "Development Website",
