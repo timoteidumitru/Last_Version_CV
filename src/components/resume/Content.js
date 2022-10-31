@@ -4,20 +4,48 @@ export default function Content() {
   const projects = [
     {
       id: 1,
+      name: "Country Info",
+      featureLearned: {
+        1: "State Management: ContextAPi + useState",
+        2: "Numbers fortatting",
+        3: "Mobile and Desktop Responsive",
+        4: "Theme change",
+        5: "Sorting filtering of data received from API",
+        6: "Pagination",
+        7: "Hooks / Custom Hooks",
+        8: "React routing system",
+        9: "Font Awesome for icons",
+        10: "Axios for http request to API",
+      },
+    },
+    {
+      id: 2,
+      name: "Get Weather App",
+      featureLearned: {
+        1: "Application developed in React.",
+        2: "Fetch data from openweathermap API using Axios. ",
+        3: "Gain experience with data visualization from API.",
+        4: "Responsive with mobile first approach pattern.",
+        5: "Exposure to dynamic programming.",
+        6: "Exposure to application state management aka Hooks/Context.",
+      },
+    },
+    {
+      id: 3,
       name: "Recipe Finder App",
-      period: "",
       featureLearned: {
         1: "Using JavaScript(ES5/ES6)",
         2: "For tooling linting, webpack, babel",
         3: "Numbers formatting have been made using fractional library",
         4: "Some exposure to transitions and animations.",
-        5: "Axios was used to make API calls",
+        5: "Axios to make API calls",
+        6: "MVC design pattern",
+        7: "Local Storage usage",
       },
     },
     {
-      id: 2,
+      id: 4,
       name: "Phase Eight(replica)",
-      period: "",
       featureLearned: {
         1: "Front End development using React.",
         2: "Application state management using React Hooks.",
@@ -28,29 +56,26 @@ export default function Content() {
       },
     },
     {
-      id: 3,
+      id: 5,
       name: "Secure Register/Login System",
-      period: "",
       featureLearned: {
-        1: "Front End development using React with following features: ",
+        1: "Other features: redirect upon register/login, validation checking",
         2: "Hooks, Styled Components, Font Awesome, Axios and React Router",
         3: "Back End developed in NodeJS and ExpressJS with following features: ",
         4: "JWT, uuid, bcrypt, cookie parser, cors, date fns, dotend, concurently",
         5: "Databese used: MongoDB(cloud) with mongoose for quering data",
-        6: "Other features: redirect upon register/login, validation checking",
       },
     },
     {
-      id: 4,
-      name: "Get Weather App",
-      period: "",
+      id: 6,
+      name: "Shopping Cart TypeScript",
       featureLearned: {
-        1: "Application developed in React.",
-        2: "Fetch data from openweathermap API using Axios. ",
-        3: "Gain experience with data visualization from API.",
-        4: "Building responsive with mobile first approach pattern.",
-        5: "Exposure to dynamic programming.",
-        6: "Exposure to application state management aka Hooks/Context.",
+        1: "Show list of products",
+        2: "Possibility to add items to cart directly in list of products table",
+        3: "Possibility to remove items from cart directly in list of products table",
+        4: "Posibility to sort products by categories and price by desc or asc.",
+        5: "From cart add possibility to change quantity of added products.",
+        6: "From cart add possibility to remove added product.",
       },
     },
   ];
@@ -79,11 +104,11 @@ export default function Content() {
           </div>
           <div className="content-header">
             <p>
-              I’m a FrontEnd Developer specialized in JavaScript stack, having
-              experience with React and TypeScript. Being an advocate of
-              continuous self improvement I'm lookking for a company that uses
-              Agile methodologies where I can perform my skills as a FrontEnd
-              Developer.
+              I'am a Frontend Developer with experience in JavaScript (ES6+),
+              React, Vue and Angular. Have experience working in a team
+              environment using Git and Agile methodologies. Looking for
+              organizations where I can use my skills to contribute as a
+              Frontend Developer.
             </p>
           </div>
           <h2>Personal projects</h2>

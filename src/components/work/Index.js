@@ -19,16 +19,16 @@ const Index = () => {
       gitLink: "https://github.com/timoteidumitru/recipe_finder-app",
     },
     {
-      name: "Phase 8",
-      img: "images/my-work/phase-8.jpg",
-      sampleLink: "https://timoteidumitru.github.io/phase-eight/",
-      gitLink: "https://github.com/timoteidumitru/phase-eight",
-    },
-    {
       name: "Get Weather App",
       img: "images/my-work/weather-app.jpg",
       sampleLink: "https://timoteidumitru.github.io/get-weather-app/",
       gitLink: "https://github.com/timoteidumitru/get-weather-app",
+    },
+    {
+      name: "Phase 8",
+      img: "images/my-work/phase-8.jpg",
+      sampleLink: "https://timoteidumitru.github.io/phase-eight/",
+      gitLink: "https://github.com/timoteidumitru/phase-eight",
     },
     {
       name: "Products sorting JavaScript",
