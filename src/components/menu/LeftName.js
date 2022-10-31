@@ -1,5 +1,5 @@
-import React from 'react'
-import './menu.scss'
+import React from "react";
+import "./menu.scss";
 
 function LeftName() {
   return (
@@ -9,7 +9,7 @@ function LeftName() {
       </div>
       <span className="left-name-email">dumitru.timy@gmail.com</span>
     </div>
-  )
+  );
 }
 
-export default LeftName
+export default LeftName;

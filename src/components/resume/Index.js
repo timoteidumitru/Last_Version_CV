@@ -1,7 +1,7 @@
-import React from 'react'
-import TopNav from '../about/TopNav'
-import Content from './Content'
-import './resume.scss'
+import React from "react";
+import TopNav from "../about/TopNav";
+import Content from "./Content";
+import "./resume.scss";
 
 const Index = () => {
   return (
@@ -9,7 +9,7 @@ const Index = () => {
       <TopNav />
       <Content />
     </div>
-  )
-}
+  );
+};
 
-export default Index
+export default Index;

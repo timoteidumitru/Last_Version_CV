@@ -1,5 +1,5 @@
-import React from 'react'
-import './header.scss'
+import React from "react";
+import "./header.scss";
 
 function LeftName() {
   return (
@@ -8,7 +8,7 @@ function LeftName() {
         <p className="left-name-text">Timotei Dumitru</p>
       </div>
     </div>
-  )
+  );
 }
 
-export default LeftName
+export default LeftName;
