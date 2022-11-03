@@ -31,9 +31,9 @@ const Index = () => {
       gitLink: "https://github.com/timoteidumitru/phase-eight",
     },
     {
-      name: "Products sorting JavaScript",
+      name: "Products sorting TypeScript",
       img: "images/my-work/shopping-cart-typescript.jpg",
-      sampleLink: "https://github.com/timoteidumitru/shopping_cart_typescript",
+      sampleLink: "https://shopping-cart-tim.herokuapp.com/",
       gitLink: "https://github.com/timoteidumitru/shopping_cart_typescript",
     },
     {
